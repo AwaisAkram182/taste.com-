@@ -1,0 +1,5573 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ .navbar{
+    background-color:#71B85F;
+    height:15.8vh;
+    width:100%;
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+
+ }
+ .menu{
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+    height:108vh;
+    width:55vw;
+    background-color:white;
+    margin-left: -26.5vw;
+    margin-top: -10vh;
+    display: none;
+    
+ }
+ .menu-bar{
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri; 
+    height:90vh;
+    background-color:transparent;
+    width:28vw;
+    margin-top: 6vh;
+    font-size: 1.4rem;
+    color: white;
+    z-index: 1000;
+    display: none;
+    
+ }  
+ 
+#comm{
+    color: black;
+    margin-left: 2vw;
+    margin-top: 15vh;
+    font-size: 5vh;
+    font-weight: 800;
+ }
+ #cross{
+    color:black;
+    font-size:33px;
+    margin-left: 27vw;
+    height:70px;
+    width:70px;  
+    background-color:white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10vh;
+    box-shadow:  0px 0px  0px  rgb(94, 86, 86),3.5px 3.5px 15px rgb(94, 86, 86);
+    cursor:pointer;
+}
+ #select{
+    margin-top: 8vh;
+    height:7vh;
+    width: 28vw;
+    margin-left: 2vw;
+    font-family:"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+    border: 1px solid rgb(101, 99, 99);
+    font-size: 1rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-transform: uppercase;
+ }
+ #inputemail{
+    margin-top: 5vh;
+    height:7vh;
+    width: 28vw;
+    margin-left: 2vw;
+    font-family:"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+    border: 1px solid rgb(101, 99, 99);
+    font-size: 1rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-transform: uppercase;
+ }
+ #inputphone{
+    margin-top: 5vh;
+    height:7vh;
+    width: 28vw;
+    margin-left: 2vw;
+    font-family:"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+    border: 1px solid rgb(101, 99, 99);
+    font-size: 1rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+ }
+ #submit{
+    height:55px;
+    width:180px;
+    background-color:#71B85F;
+    font-size: 23px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-weight: 600;
+     border-top-left-radius: 40px;
+     border-top-right-radius: 40px;
+     border-bottom-left-radius: 40px;
+     border-bottom-right-radius: 40px;
+     border: none;
+    margin-top: 13vh;
+    margin-left: -24vw;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+    cursor: pointer;
+ }
+ #submit:hover{
+    background-color:rgb(29, 29, 29);
+    color: white;
+ }
+ #message{
+    height:17vh;
+    width: 28vw;
+    margin-top: 5vh;
+    margin-left: 2vw;
+    font-family:"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+    border: 1px solid rgb(101, 99, 99);
+    font-size: 1rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    columns: 5;
+ }
+ .logo{
+   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+   padding-top: 4.4vh;
+   padding-left: 6vw;
+   color: white;
+ }
+ .logo:hover{
+    cursor: pointer;
+ }
+ .logo p{
+    font-size: small;
+    margin-left: 0.3vw; 
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+    font-weight: 600;
+ }
+.navelements{
+  display: flex;
+  padding-top: 6.3vh;
+  padding-left: 10vw;
+  gap: 4vw;
+  color: white;
+  font-size: medium;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 500;
+}
+#Programs1{
+    height: 5vh;
+    width:8vw;
+}
+#Programs1:hover{
+        border-bottom: solid white;
+        cursor: pointer;
+}
+#cli{
+    height: 5vh;
+    width:5.8vw;
+    margin-left: 1vw;
+}
+#cli:hover{
+        border-bottom: solid white;
+        cursor: pointer;
+}
+#abb{
+    height: 5vh;
+    width:5vw;
+    margin-left: 1vw;
+}
+#abb:hover{
+        border-bottom: solid white;
+        cursor: pointer;
+}
+#pencil{
+    color:black;
+    font-size:33px;
+    margin-left: 27vw;
+    height:70px;
+    width:70px;  
+    background-color:white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2vh;
+}
+#pencil:hover{
+    cursor: pointer;
+}
+
+.main{
+    height:110vh;
+    background-color:#71B85F;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+    color: white;
+}
+.main p{
+    padding-top:20vh;
+    padding-left: 6vw;
+    font-size:2vw;
+    font-weight: bolder;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main h2{
+    margin-left: 6vw;
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    color: black;
+    background-color:#feef63;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vh;
+}
+.main h1{
+    padding-left: 7.5vw;
+    margin-top: -8.1vh;
+    font-size: 14vh;
+    font-weight: 900;
+    clip-path: polygon(13.3% 1.6%, 100% 0%, 100% 80%, 60% 80%, 60% 100%, 0% 100%);
+}
+#ser{
+    padding-left: 7.5vw;
+    padding-top: 6vh;
+    font-size: 6vw;
+    font-weight: 900;
+}
+#hidden{
+    margin-top: -49vh;
+    font-size: 30vw;
+    font-weight: 900;
+    opacity: 7%;
+   position:relative;
+}
+#food{
+    height:80vh;
+    width:50vw;
+    object-fit: contain;
+   margin-top: -190vh;
+   margin-left: 47.8vw;
+}
+#description{
+   color:white;
+   margin-top: -54vh;
+   margin-left: 2vw;
+   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+   font-size: larger;
+   word-spacing: 50%;
+   font-weight: bolder;
+}
+.about{
+    background-color:rgb(253, 253, 252);
+    height:100vh;
+    display: flex;
+    
+}
+#chef{
+    background-image: url("Cheff.png");
+    height:96vh;
+    width:32.8vw;
+    margin-top: 5vh;
+    margin-left: 10vw;
+    background-size:auto;
+}
+.about p{
+    margin-top: 120px;
+    margin-left: 130px;
+    font-size: 5vh;
+    color:#343a40;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.about h1{
+     color:Black;
+     text-transform: uppercase;
+     font-size: 7vh;
+     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+     font-weight: 700;
+     padding-top: 29vh;
+     margin-left: -9.6vw;
+}
+h4{
+    color:rgb(41, 41, 41);
+    margin-top: -48vh;
+    margin-left: 52vw;
+    font-size: 3vh;
+    font-weight: 100;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.subextra li{
+    font-size: 3vh;
+    font-weight: 600;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+    color:rgb(37, 37, 37);
+    margin-left: 54.5vw;
+    margin-top: 4.6vh;
+}
+#btn1{
+    height:55px;
+    width:180px;
+    background-color:#71B85F;
+    font-size: 23px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-weight: 600;
+     border-top-left-radius: 40px;
+     border-top-right-radius: 40px;
+     border-bottom-left-radius: 40px;
+     border-bottom-right-radius: 40px;
+     margin-left: 60vw;
+     border: none;
+    margin-top: 2vh;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+}
+#btn1:hover{
+    background-color:rgb(26, 26, 26);
+    color: white;
+    cursor: pointer;
+}
+.foodsection{
+    height:135vh;
+    background-color:#71B85F;
+   margin-top: 10px;
+   display: flex;
+   justify-content: center;
+   
+}
+#upperdes {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri; 
+}
+#upperdes h3{
+    font-size: 5vh;
+    font-weight: 200px;
+    text-transform: uppercase;
+    color:#d4f6d4;
+    margin-top: 15vh;
+    margin-left: 33vw;
+}
+#upperdes h1{
+     font-size: 8vh;
+     font-weight: 800;
+     text-transform: uppercase;
+     color: white;
+     margin-top: 3vh;
+     margin-left: 27vw;
+     
+}
+.fooditems{
+    margin-top: 13vh;
+    display: flex;
+    gap:3vw;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri; 
+}
+.box1{
+    height:70vh;
+    width:27vw;
+    background-color:white;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 17%;
+    border-bottom-right-radius: 17%;
+    border-top-right-radius: 37%;
+}
+#drink{
+    height:30vh;
+    width:15vw;
+    object-fit: contain;
+    margin-left: 14vw;
+    margin-top: -1vh;
+}
+.box1 h2{
+    margin-left: 3.2vw;
+    margin-top: -24.5vh;
+    font-weight: 700;
+}
+#dollar{
+    margin-top: 5vh;
+}
+#price1{
+    font-size:13vh;
+    margin-top: -8.5vh;
+    margin-left: 4vw;
+    word-spacing: 2%;
+}
+#perday{
+    font-size: 3.6vh;
+    margin-left: 5vw;
+    margin-top: -2.4vh;
+}
+#benefits{
+    margin-left: 3.6vw;
+    margin-top: 4vh;
+    font-size: 3vh;
+    color:rgb(66, 65, 65);
+}
+#ordernow1{
+    height:70px;
+    width:210px;
+    font-size: 3vh;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri; 
+    font-weight: 700;
+    margin-left: 5vw;
+    margin-top: 4vh;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    background-color: #71B85F;
+    color: white;
+}
+#ordernow1:hover{
+background-color:rgb(26, 26, 26);
+color: white;
+cursor: pointer;
+}
+/* ///order2/// */
+.box2{
+    height:70vh;
+    width:27vw;
+    background-color:white;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 17%;
+    border-bottom-right-radius: 17%;
+    border-top-right-radius: 37%;
+}
+#meal{
+    height:30vh;
+    width:15vw;
+    object-fit: contain;
+    margin-left: 14.2vw;
+    margin-top: -1.2vh;
+}
+#balanced{
+    margin-left: 2.7vw;
+    margin-top: -24.5vh;
+    font-weight: 700;
+}
+#dollar2{
+    margin-top: 5vh;
+    margin-left: 3vw;
+}
+#price2{
+    font-size:13vh;
+    margin-top: -8.5vh;
+    margin-left: 4vw;
+    word-spacing: 2%;
+}
+#perday2{
+    font-size: 3.6vh;
+    margin-left: 5vw;
+    margin-top: -2.4vh;
+}
+#benefits2{
+    margin-left: 3.6vw;
+    margin-top: 3.5vh;
+    font-size: 3vh;
+    color:rgb(66, 65, 65);
+}
+#mealordernow{
+    height:70px;
+    width:210px;
+    font-size: 3vh;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri; 
+    font-weight: 700;
+    margin-left: 5vw;
+    margin-top: 4vh;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    background-color: #71B85F;
+    color: white;
+}
+#mealordernow:hover{
+    background-color:rgb(26, 26, 26);
+    color: white;
+    cursor: pointer;
+    }
+ /* box 3 */
+ .box3{
+    height:70vh;
+    width:27vw;
+    background-color:white;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 17%;
+    border-bottom-right-radius: 17%;
+    border-top-right-radius: 37%;
+}
+#meal2{
+    height:30vh;
+    width:15vw;
+    object-fit: contain;
+    margin-left: 14vw;
+    margin-top: -1vh;
+}
+#vegan{
+    margin-left: 3.2vw;
+    margin-top: -24.5vh;
+    font-weight: 700;
+}
+#dollar3{
+    margin-top: 5vh;
+    margin-left: 3vw;
+}
+#price3{
+    font-size:13vh;
+    margin-top: -8.5vh;
+    margin-left: 4vw;
+    word-spacing: 2%;
+}
+#perday3{
+    font-size: 3.6vh;
+    margin-left: 5vw;
+    margin-top: -2.4vh;
+}
+#benefits3{
+    margin-left: 3.6vw;
+    margin-top: 4vh;
+    font-size: 3vh;
+    color:rgb(66, 65, 65);
+}
+#mealordernow2{
+    height:70px;
+    width:210px;
+    font-size: 3vh;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri; 
+    font-weight: 700;
+    margin-left: 5vw;
+    margin-top: 4vh;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    background-color: #71B85F;
+    color: white;
+}
+#mealordernow2:hover{
+    background-color:rgb(26, 26, 26);
+    color: white;
+    cursor: pointer;
+    }
+
+/* how it works */
+.howitworks{
+    height: 90vh;
+    background-color:white;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+    display: flex;
+justify-content: center;
+}
+.maintext h2{
+    font-size: 4.3vh;
+    font-weight: 200px;
+    text-transform: uppercase;
+    color:#5c5f5c;
+    margin-top: 13vh;
+    margin-left: 39vw;
+    word-spacing: 70%;
+}
+#steps{
+    font-size: 7.6vh;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: black;
+    margin-top: 3vh;
+    margin-left: 23vw;
+}
+.workboxes{
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    margin-top: 12vh;
+    margin-left: 2%;
+}
+.workbox1{
+    height:32.6vh;
+    width:24vw;
+    background-color: #fbf29f;
+    border-top-left-radius: 24%;
+    border-bottom-right-radius: 24%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    
+}
+#num1{
+   font-size: 4vh;
+    height:65px;
+    width:65px;
+    border-radius: 50%;
+    color: rgb(94, 86, 86) ;
+    opacity: 90%;
+    background-color:#FFF;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:  0px 0px  0px  rgb(94, 86, 86),3.5px 3.5px 5px rgb(94, 86, 86);
+    margin-top: -2vh;
+    margin-left: -0.7vw;
+}
+#choose{
+    font-size: 3.5vh;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 0vh;
+    margin-left: 3vw;
+}
+.workbox1 #des{
+    font-size: 3vh;
+    font-weight: 200;
+    margin-left: 3vw;
+    margin-top: 2vh;
+}
+#arrow{
+   height:3vh;
+   width:8vw;
+   opacity: 100%;
+   background-size: contain;
+   margin-left: -2vw;
+   margin-top: 15vh;
+}
+.workbox1:hover{
+    margin-top: -1vh;
+    cursor: pointer;
+}
+/* ///// */
+.workbox2{
+    background-color: #d6eee6;
+    height:32.6vh;
+    width:24vw;
+    border-top-left-radius: 24%;
+    border-bottom-right-radius: 24%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    margin-left: -2.5vw;
+}
+#num2{
+    font-size: 4vh;
+     height:65px;
+     width:65px;
+     border-radius: 50%;
+     color: rgb(94, 86, 86) ;
+     opacity: 90%;
+     background-color:#FFF;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     box-shadow:  0px 0px  0px  rgb(94, 86, 86),3.5px 3.5px 5px rgb(94, 86, 86);
+     margin-top: -2vh;
+     margin-left: -0.7vw;
+ }
+ #customize{
+     font-size: 3.5vh;
+     text-transform: uppercase;
+     font-weight: 600;
+     margin-top: 0vh;
+     margin-left: 3vw;
+ }
+ .workbox2 #des2{
+     font-size: 3vh;
+     font-weight: 200;
+     margin-left: 3vw;
+     margin-top: 2vh;
+ }
+ #arrow2{
+    height:3vh;
+    width:8vw;
+    opacity: 100%;
+    background-size: contain;
+    margin-left: -2vw;
+    margin-top: 15vh;
+ }
+ .workbox2:hover{
+    margin-top: -1vh;
+    cursor: pointer;
+}
+
+ /* ///// */
+ .workbox3{
+    background-color: #cdd9db;
+    height:32.6vh;
+    width:24vw;
+    border-top-left-radius: 24%;
+    border-bottom-right-radius: 24%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    margin-left: -2vw;
+}
+#num3{
+    font-size: 4vh;
+     height:65px;
+     width:65px;
+     border-radius: 50%;
+     color: rgb(94, 86, 86) ;
+     opacity: 90%;
+     background-color:#FFF;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     box-shadow:  0px 0px  0px  rgb(94, 86, 86),3.5px 3.5px 5px rgb(94, 86, 86);
+     margin-top: -2vh;
+     margin-left: -0.7vw;
+ }
+ #data3{
+     font-size: 3.5vh;
+     text-transform: uppercase;
+     font-weight: 600;
+     margin-top: 0vh;
+     margin-left: 3vw;
+ }
+ .workbox3 #des3{
+     font-size: 3vh;
+     font-weight: 200;
+     margin-left: 3vw;
+     margin-top: 2vh;
+ }
+ .workbox3:hover{
+    margin-top:-1vh;
+    cursor: pointer;
+}
+/* /// qualities section/// */
+.qualtiessection{
+    height:90vh;
+    width: 100%;
+    background-color: #71B85F;
+    display: flex;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+    
+
+}
+#diamond{
+    display: flex;
+    
+}
+#awesome{
+    height: 10vh;
+    width:5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vh;
+    color: white;
+    margin-top: 18vh;
+    margin-left: 8vw;
+}
+#diamond h2{
+    margin-top: 21vh;
+    color: white;
+    margin-left: 0.7vw;
+    font-size: 4vh;
+    font-weight: 600;
+}
+#diamond p{
+    font-size: 3vh;
+    color: white;
+    margin-top: 29vh;
+    margin-left: -12.2vw;
+}
+#organic{
+    display: flex;
+
+}
+#organic-icon{
+    height: 10vh;
+    width:5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9vh;
+    color: white;
+    margin-top: 9vh;
+    margin-left: 8vw;
+}
+#organic h2{
+    margin-top: 11.9vh;
+    color: white;
+    margin-left: 0.7vw;
+    font-size: 4vh;
+    font-weight: 600;
+}
+#organic p{
+    font-size: 3vh;
+    color: white;
+    margin-top: 19.3vh;
+    margin-left: -12.2vw;
+}
+/* /////////// */
+.tocennter{
+    display: flex;
+}
+#tasty{
+    display: flex;
+}
+#tasty-icon{
+    height: 10vh;
+    width:5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9vh;
+    color: white;
+    margin-left: 5vw;
+    margin-top:19vh;
+}
+#tasty h2{
+    margin-top: -3vh;
+    color: white;
+    margin-left: 1vw;
+    font-size: 4vh;
+    font-weight: 600;
+    margin-top:20.6vh;
+}
+#tasty p{
+    font-size: 3vh;
+    color: white;
+    margin-top: 29vh;
+    margin-left: -10vw;
+}
+#deverse{
+    display: flex;
+}
+#deverse-icon{
+    height: 10vh;
+    width:5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9vh;
+    color: white;
+    margin-left: 5vw;
+    margin-top: 9vh;
+    
+}
+#deverse h2{
+    color: white;
+    margin-left: 1vw;
+    font-size: 4vh;
+    font-weight: 600;
+    margin-top:11.6vh;
+}
+#deverse p{
+    font-size: 3vh;
+    color: white;
+    margin-top: 19vh;
+    margin-left: -13vw;
+}
+/* image inserion  */
+.imagesec1{
+    display: flex;
+    gap: 2vw;
+}
+ #food2{
+    height:60vh;
+    width:30vw;
+    background-size: auto;
+    margin-top: 33%;
+    border-radius: 50%;
+    margin-left: -2%;
+}
+
+/* testimonels */
+
+.testimonels{
+    height:100vh;
+}
+.roundbox{
+    display: flex;
+    
+}
+#roundbox1{
+    display: flex;
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    margin-top: -85vh;
+    background-color: #71B85F;
+    margin-left: 15vw;
+    animation-name: anime1;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    
+}
+@keyframes anime1 {
+   from{
+     margin-left: -10vh; 
+    background-color: #71B85F;
+   }
+   to{
+    background-color: #71B85F;
+   }
+    
+}
+#roundbox2{
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+    background-color:#71B85F;
+    margin-top: -46vh;
+    margin-left: 20vw;
+}
+.clients{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    margin-left: 2%;
+    height:90vh;
+    width:50%;
+}
+#client1{
+    height:44vh;
+    width:44vh;
+    background-size: contain;
+    margin-top: 17vh;
+    padding-left: -4vw;
+   
+}
+#client2{
+    height:30vh;
+    width:30vh;
+    margin-top: -5vh;
+    background-size: contain;
+}
+#client3{
+    height:30vh;
+    width:30vh;
+    margin-top: 4vh;
+    padding-left: 27vw;
+    background-size: contain;
+}
+/*   /*/
+.clientsay {
+margin-left: 55%;
+   margin-top: -39%;
+   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+   animation: blur;
+   animation-duration: 5s;
+   animation-delay: 2s;
+   animation-iteration-count: infinite;
+   animation-direction:normal
+}
+@keyframes blur {
+   10%{
+    margin-left: 60vw;
+    opacity: 0%;
+   }
+  
+   100%{
+   
+    opacity: 100%; 
+   }
+    
+}
+.clientsay h2{
+    color:#5c5f5c;
+    text-transform: uppercase;
+    font-size: 4vh;
+    font-weight: 550;
+}
+.clientsay h1{
+    text-transform: uppercase;
+    font-size: 9vh;
+    font-weight: 650;
+    margin-top: 3%;
+}
+.clientsay p{
+    margin-top: 3%;
+    font-size: 3vh;
+    font-weight: 500;
+    word-spacing: 180%;
+    color: #5c5f5c;
+    margin-left: 1%;
+}
+#send{
+    height:70px;
+    width:210px;
+    font-size: 3vh;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri; 
+    font-weight: 700;
+    margin-left: 5vw;
+    margin-top: 13vh;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    background-color: #71B85F;
+    color: white;
+}
+#send:hover{
+    background-color:rgb(26, 26, 26);
+    color: white;
+    cursor: pointer;
+}
+
+/* footer section */
+.footer{
+    height:55vh;
+    background-color:#f4faf2;
+}
+.footerdata{
+    display: flex;
+    justify-content: center;
+    padding-top: 7%;
+    margin-left: 9%;
+    margin-right: 9%;
+    gap: 4vw;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri; 
+}
+.tastelogo{
+    height:30vh;
+    width:50vw;
+}
+.tastelogo h2:hover{
+    cursor: pointer;
+}
+.tastelogo h2{
+    color:black;
+    font-size: 5.3vh;
+}
+.tastelogo h3{
+    font-size: 1.9vh;
+    margin-left: 1.9%;
+    color:black;
+}
+.tastelogo p{
+    color:#454343;
+    margin-top: 4vh;
+}
+.tastelogo a{
+    font-weight: 600;
+    margin-top: -6.2vh;
+    margin-left: 0.3vw;
+    color:black;
+    text-decoration: none;
+}
+/*     */
+
+.contacts{
+    height:30vh;
+    width:50vw;
+}
+.contacts h3{
+    color:black;
+    font-size: 2.6vh;
+}
+#phone{
+    display: flex;
+    margin-top: 5vh;
+    gap: 2vw;
+}
+#phone #ph{
+    color:#454343;
+    font-size: 3vh;
+    font-weight: 300;
+}
+#phone h5{
+    color:black;
+    font-size: 3vh;
+    font-weight: 370;
+}
+#mail{
+    display: flex;
+    gap: 2vw;
+    margin-top: 1vh;
+}
+#ml{
+    color: #454343;
+    font-size: 3vh;
+    font-weight: 370;
+}
+#mail #add{
+    color: black;
+    font-size: 3vh;
+    font-weight: 370;
+}
+#loc{
+    color:black;
+    font-size: 3vh;
+    margin-top: 2vh;
+    font-weight: 200;
+    margin-left: 0.5vw;
+}
+#awfb{
+    text-decoration: none;
+}
+#fb{
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:35px;
+    width: 35px;
+    font-size: 20px;
+    border: 0.7px solid rgb(110, 109, 109);
+    border-radius: 50%;
+}
+.linkss{
+    display: flex;
+}
+#insta{
+    text-decoration: none;
+    margin-left: 2vw;
+}
+#instalink{
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:35px;
+    width: 35px;
+    font-size: 20px;
+    border: 0.7px solid rgb(110, 109, 109);
+    border-radius: 50%;
+}
+.links{
+    height:30vh;
+    width:50vw;
+}
+.links h2{
+    font-size: 2.8vh;
+    color:black;
+}
+#ab:hover{
+    cursor: pointer;
+}
+#ab{
+    font-size: 3vh;
+    font-weight: 370;
+    margin-top: 1.4vh;
+}
+#how{
+    margin-top: 4vh;
+    font-size: 3vh;
+    font-weight: 370;
+}
+#how:hover{
+    cursor: pointer;
+}
+#why{
+    font-size: 3vh;
+    font-weight: 370;
+    margin-top: 1.4vh;
+}
+#why:hover{
+    cursor: pointer;
+}
+.packages{
+    height:30vh;
+    width:50vw;
+}
+.packages h2{
+    font-size: 2.8vh;
+    color:black;
+}
+#de{
+    font-size: 3vh;
+    font-weight: 370;
+    margin-top: 3.5vh;
+}
+#de:hover{
+    cursor: pointer;
+}
+#ba{
+    margin-top: 2vh;
+    font-size: 3vh;
+    font-weight: 370;
+}
+#ba:hover{
+    cursor: pointer;
+}
+#ve{
+    font-size: 3vh;
+    font-weight: 370;
+    margin-top: 1.4vh;
+}
+#ve:hover{
+    cursor: pointer;
+}
+ 
+
+
+/* responsive Model */
+
+
+@media (min-width:320px) and (max-width:480px) {
+    html, body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .menu-bar{
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri; 
+        height:30vh;
+        background-color:transparent;
+        width:28vw;
+        font-size: 1.4rem;
+        color: white;
+        display: block;
+        margin-top: 2.2vh;
+     }  
+     #menubar{
+        height:10vh;
+        width:10vw;
+        font-size: 1.6rem;
+        cursor: pointer;
+        margin-left: 2.3vw;
+     }
+     #backarrow{
+        margin-left: 1.3vw;
+        font-size: 1.4rem;
+        cursor: pointer;
+        color:white;
+        margin-top: 0.2vh;
+        display: none;
+     }
+     #menu-pro{
+        font-size: 1.1rem;
+        color: white;
+        cursor: pointer;
+        margin-top: 1vh;
+        display: none;
+     }
+     #menu-cli{
+        font-size: 1.1rem;
+        color: white;
+        cursor: pointer;
+        margin-top: 1vh;
+        display: none;
+     }
+     #menu-abb{
+            font-size: 1.1rem;
+            color: white;
+            cursor: pointer;
+            margin-top: 1vh;
+            display: none;
+     }
+     .navbar{
+        margin-top: -1vh;
+        height:10vh;
+        border: 1px solid #71B85F;
+        border-bottom-color: white;
+     }
+     #Programs1{
+        display: none;
+     }
+     #cli{
+        display: none;
+     }
+     #abb{
+        display: none;
+     }
+
+
+
+                                   /* menu ends */
+     .logo h1{
+        margin-top: -3.7vh;
+        margin-left: -15.4vw;
+     }
+     .logo p{
+        margin-left: -14.4vw;
+        margin-top: -1vh;
+        text-wrap: nowrap;
+     }
+     #pencil{
+        height:45px;
+        width:45px;
+        font-size: 1.4rem;
+        margin-top: -4.3vh;
+        margin-left: 33vw;
+     }
+     .main{
+        height:70vh;
+        flex-wrap: wrap;
+     }
+     .menu{
+        margin-left: -97.2vw;
+        width:100vw;
+        overflow-y: scroll; 
+     }
+     #comm{
+        font-size: 1.6rem;
+        padding-top: -3vh;
+        padding-top: -6vh;
+     }
+     #cross{
+        height:50px;
+        width:50px;
+        font-size: 1.6rem;
+        margin-top: -12vh;
+        margin-left:80vw;
+     }
+     #select{
+        width:90vw;
+        margin-top: 10vh;
+     }
+     #inputemail{
+        width:90vw;
+        margin-top: 2vh;
+     }
+     #inputphone{
+        width:90vw;
+        margin-top: 2vh;
+     }
+     #message{
+        width:90vw;
+        height:10vh;
+        margin-top: 2vh;
+     }
+     #submit{
+        margin-top: 1vh;
+        margin-left: 20vw;
+     }
+     #food{
+        height:35vh;
+        width:35vw;
+        margin-left: 63vw;
+        background-color:transparent;
+     }
+     .main p{
+        font-size: 1.4rem;
+        margin-left: -3vw;
+     }
+     .main h2{
+        font-size: 1.4rem;
+        margin-left: 2vw;
+        margin-top: 2vh;
+        height:40px;width:40px;
+     }
+     .main h1{
+        font-size: 3rem;
+        padding-top:4.4vh;
+        margin-left: 1px;
+        clip-path: polygon(13.3% 41.6%, 100% 0%, 100% 80%, 60% 80%, 60% 100%, 0% 100%);
+     }
+     #ser{
+        font-size: 2.2rem;
+        padding-top: 55px;
+     }
+     #hidden{
+        font-size: 3rem;
+        margin-top: 26vh;
+        opacity: 10%;
+        color: white;
+        word-spacing: 10%;
+     }
+     #food{
+        height:25vh;
+        width:46vw;
+        margin-left: 50vw;
+     }
+     #description{
+        font-size: 1.2rem;
+         padding-top: 177px; 
+        br{
+            display: none;
+        }
+     }
+
+
+
+                                            /* about us */
+     .about{
+        display: flex;
+        flex-wrap: wrap;
+     }
+     #chef{
+        height: 38vh;
+        width:70vw;
+    margin-top: 3vh;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    margin-left: 17vw;
+     }
+     .about p{
+        font-size: 1.6rem;
+        margin-top: -15vh;
+        margin-left: 12vw;
+        text-transform: uppercase;
+     }
+     .about h1{
+        font-size: 1.6rem;
+        margin-left: -118px;
+        margin-top: -39vh;
+     }
+      h4{
+        font-size: 1.2rem;
+        margin-top: -28vh;
+        margin-left: 12.3vw;
+        flex-wrap:nowrap;
+     }
+     #list1{
+        margin-left: 20vw;
+        margin-top: 3vh;
+        font-size: 1.1rem;
+     }
+     #list2{
+        margin-left: 20vw;
+        margin-top: 3vh;
+        font-size: 1.1rem;
+     }
+     #list3{
+        margin-left: 20vw;
+        margin-top: 3vh;
+        font-size: 1.1rem;
+     }
+     #btn1{
+        margin-left: 25vw;
+     }  
+
+                                 /* fooditems */
+     #upperdes h3{
+       font-size: 1.2rem;
+       margin-top: 20px;
+       text-align: center;
+       display: block;
+       margin: 0 auto;
+       width: 100%; 
+     }
+     #upperdes h1{
+        font-size: 1.8rem;
+        margin-top: 20px;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        width: 100%; 
+      }
+      .foodsection{
+        height:190vh;
+      }
+      .fooditems{
+        flex-wrap: wrap;
+      }
+    .box1{
+        height:53vh;
+        width:90vw;
+        margin-top: -15%;
+        margin-left:auto;
+        margin-right: auto;
+        br{
+            display: none;
+        }
+      }
+      .box1 h2{
+        font-size: 1.4rem;
+        margin-top: -12vh;
+      }
+      #drink{
+        height:17vh;
+        width:40vw;
+        margin-left: 53vw;
+        margin-top: -0.5vh;
+       
+      }
+      
+      #dollar{
+        margin-top: 7px;
+      }
+      #price1{
+        margin-top: -48px;
+        font-size: 3.8rem;
+        margin-left: 22px;
+      }
+      #perday{
+        font-size: 1.1rem;
+        margin-top: -10px;
+        margin-left: 30px;
+      }
+      #benefits{
+        font-size: 1.1rem;
+        margin-left: 12vw;
+      }
+      #ordernow1{
+        height:60px;
+        margin-left: 14vw;
+        margin-top: 37px;
+      }
+
+      .box2{
+        height:53vh;
+        width:90vw;
+        margin-top: 10%;
+        margin-left:auto;
+        margin-right: auto;
+      }
+      #balanced{
+        font-size: 1.4rem;
+        margin-top: -12vh;
+      }
+      #meal{
+        height:17vh;
+        width:40vw;
+        margin-left: 53vw;
+        margin-top: -0.5vh;
+       
+      }
+      #dollar2{
+        margin-top: 7px;
+      }
+      #price2{
+        margin-top: -48px;
+        font-size: 3.8rem;
+        margin-left: 22px;
+      }
+      #perday2{
+        font-size: 1.1rem;
+        margin-top: -10px;
+        margin-left: 30px;
+      }
+      #benefits2{
+        font-size: 1.1rem;
+        margin-left: 12vw;
+      }
+      #mealordernow{
+        height:60px;
+        margin-left: 14vw;
+        margin-top: 37px;
+      }
+      .box3{
+        height:53vh;
+        width:90vw;
+        margin-top: 10%;
+        margin-left:auto;
+        margin-right: auto;
+      }
+      #vegan{
+        font-size: 1.4rem;
+        margin-top: -12vh;
+      }
+      #meal2{
+        height:17vh;
+        width:40vw;
+        margin-left: 53vw;
+        margin-top: -0.5vh;
+       
+      }
+      #dollar3{
+        margin-top: 7px;
+      }
+      #price3{
+        margin-top: -48px;
+        font-size: 3.8rem;
+        margin-left: 22px;
+      }
+      #perday3{
+        font-size: 1.1rem;
+        margin-top: -10px;
+        margin-left: 30px;
+      }
+      #benefits3{
+        font-size: 1.1rem;
+        margin-left: 12vw;
+      }
+      #mealordernow2{
+        height:60px;
+        margin-left: 14vw;
+        margin-top: 37px;
+      }
+                                /* how itworks */
+ 
+    .howitworks{
+        height:135vh;
+    }
+    #arrow{
+        display: none;
+    }
+    #arrow2{
+        display: none;
+    }
+    .maintext h2{
+        font-size: 1.3rem;
+        margin-left: 30vw;
+        margin-top: 10%;
+    }
+    #steps{
+        font-size: 1.5rem;
+        margin-left: 10vw;
+        text-align: center;
+    }
+    .workboxes{
+        flex-wrap: wrap;
+        height:50vh;
+    }
+    .workbox1{
+       height:30vh;
+       width:90vw;
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: -10%;
+    }
+    .workbox1:hover{
+      margin-top: -10%;
+    }
+    #choose{
+        font-size: 1.7rem;
+    }
+    .workbox2{
+        height:30vh;
+        width:90vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+     }
+     .workbox2:hover{
+        margin-top: 10%;
+      }
+     #customize{
+         font-size: 1.7rem;
+     }
+     #des2{
+        font-size: 10px;
+     }
+     .workbox3{
+        height:30vh;
+        width:90vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+     }
+     .workbox3:hover{
+        margin-top: 10%;
+      }
+     #data3{
+         font-size: 1.7rem;
+     }
+     #des3{
+        font-size: 10px;
+     }
+                                /* qualitiessection */
+
+    .qualtiessection{
+        flex-wrap: wrap;
+        height:96vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #awesome{
+        margin-left: 35px;
+        margin-top: 23px;
+        font-size: 3.6rem;
+    }
+    #diamond h2{
+        font-size: 1.6rem;
+        margin-top:46px;
+        margin-left: 25px;
+    }
+    #diamond p{
+       font-size: 1.1rem;
+       margin-left: -155px;
+       margin-top: 13vh;
+       br{
+        display: none;
+       }
+    }
+    #organic-icon{
+        margin-left: 35px;
+        margin-top: 23px;
+        font-size: 3.3rem;
+    }
+    #organic h2{
+        font-size: 1.6rem;
+        margin-top:46px;
+        margin-left: 25px;
+    }
+    #organic  p{
+        font-size: 1.1rem;
+        margin-left: -155px;
+        margin-top: 13vh;
+        br{
+         display: none;
+        }
+    }
+    #tasty-icon{
+        margin-left: 39px;
+        margin-top: -16px;
+        font-size: 3.3rem;
+    }
+    #tasty h2{
+        font-size: 1.6rem;
+        margin-top:-4px;
+        margin-left: 28px;
+    }
+    #tasty  p{
+        font-size: 1.1rem;
+        margin-left: -122px;
+        margin-top: 8vh;
+        br{
+         display: none;
+        }
+    }
+    #deverse-icon{
+        margin-left: 39px;
+        margin-top: 13px;
+        font-size: 3.3rem;
+    }
+    #deverse h2{
+        font-size: 1.6rem;
+        margin-top:33px;
+        margin-left: 28px;
+    }
+    #deverse p{
+        font-size: 1.1rem;
+        margin-left: -165px;
+        margin-top: 12vh;
+        br{
+         display: none;
+        }
+    }
+    #food2{
+        display: none;
+    }
+                              /* testimonels */
+ 
+     .testimonels{
+        height:81vh;
+     }   
+     .clients{
+        height:30vh;
+        width:100%;
+        display: flex;
+     }   
+     #client1{
+        height:13vh;
+        width:27vw;
+        margin-top: -1vh;
+        margin-left: -37vw;
+     } 
+     #client2{
+        height:13vh;
+        width:27vw;
+        margin-top: -1vh;
+        margin-left: 8vw;
+     } 
+     #client3{
+        height:13vh;
+        width:27vw;
+        margin-top: -19vh;
+        margin-left: 38vw;
+     }  
+     .clientsay{
+        margin-top: -13vh;
+     }
+     .clientsay h2{
+        font-size: 1.2rem;
+        margin-left: -50vw;
+     } 
+     .clientsay h1{
+        font-size: 2.3rem;
+        margin-left: -51vw;
+        font-weight: 900;
+     }
+     .clientsay p{
+        font-size: 1.1rem;
+        margin-left: -50vw;
+        br{
+            display: none;
+        }
+     } 
+     #send{
+        margin-left: -40vw;
+        font-size: 1.4rem;
+     }       
+     #roundbox1{
+        margin-top: -27.7vh;
+        background-color:#71B85F;
+     }  
+     #roundbox2{
+        margin-top: -12.6vh;
+        height:33px;
+        width:33px;
+        background-color:#71B85F;
+     }  
+                           /* footer section    */
+   .footer{
+        height:110vh;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tastelogo{
+        text-wrap:nowrap;
+        margin-left: -44vw
+    }
+    .tastelogo h2{
+        font-size: 1.4rem;
+        margin-left: 40vw;
+    }
+    .tastelogo h3{
+        font-size: 1.1rem;
+        font-weight: 200;
+        margin-left: 40vw;
+    }
+    .tastelogo p{
+        font-size: 1.1rem;
+        font-weight: 200;
+        margin-left: 40vw;
+        margin-top: 5px;
+    }
+    .contacts{
+        margin-top: 18vh;
+        margin-left: 2vw;
+    }
+    .contacts h3{
+        font-size: 1.1rem;
+        margin-left: -15vw;
+    }
+    #ph{
+        font-size: 0.6rem;
+        margin-left: -15vw;
+        margin-top: -2vh;
+    }
+    #numb{
+        font-size: 0.2rem;
+        margin-left: 6vw;
+        margin-top: -2vh;
+    }
+    #phone #ph{
+        font-size: 1.3rem;
+    }
+    #phone #numb{
+        font-size: 1.3rem;
+    }
+    #ml{
+        margin-left: -15vw;
+        margin-top: 1vh;
+    }
+    #add{
+        margin-left: 6vw;
+        margin-top: 1vh;
+    }
+    #mail #ml{
+        font-size: 1.3rem;
+    }
+    #mail #add{
+        font-size: 1.3rem;
+    }
+    #loc{
+        font-size: 1.3rem;
+        margin-left: -15vw;
+        br{
+            display: none;
+        }
+    }
+    #awfb{
+        margin-left: -14vw;
+        
+    }
+    #instalink{
+        margin-left: 3vw;
+    }
+    .links{
+        text-wrap: nowrap;
+        margin-top: 56vh;
+        margin-left: -68vw;
+    }
+    .links h2{
+        font-size: 1.1rem;
+    }
+    #how{
+        font-size: 1.1rem;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    #ab{
+        font-size: 1.1rem;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    #why{
+        font-size: 1.1rem;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    .packages{
+        text-wrap: nowrap;
+        margin-top: 80vh;
+        margin-left: -54vw;
+    }
+    .packages h2{
+        font-size: 1.1rem;
+    }
+    #de{
+        font-size: 1.1rem;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    #ba{
+        font-size: 1.1rem;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    #ve{
+        font-size: 1.1rem;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+                                     /* 481 to 768 */
+
+
+
+ @media (min-width:481px) and (max-width:768px){
+    html, body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .menu-bar{
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri; 
+        height:30vh;
+        background-color:transparent;
+        width:28vw;
+        font-size: 1.4rem;
+        color: white;
+        display: block;
+        margin-top: 2.2vh;
+     }  
+     #menubar{
+        height:10vh;
+        width:10vw;
+        font-size: 1.6rem;
+        cursor: pointer;
+        margin-left: 2.3vw;
+     }
+     #backarrow{
+        margin-left: 1.3vw;
+        font-size: 1.4rem;
+        cursor: pointer;
+        color:white;
+        margin-top: 0.2vh;
+        display: none;
+     }
+     #menu-pro{
+        font-size: 1.1rem;
+        color: white;
+        cursor: pointer;
+        margin-top: 1vh;
+        display: none;
+     }
+     #menu-cli{
+        font-size: 1.1rem;
+        color: white;
+        cursor: pointer;
+        margin-top: 1vh;
+        display: none;
+     }
+     #menu-abb{
+            font-size: 1.1rem;
+            color: white;
+            cursor: pointer;
+            margin-top: 1vh;
+            display: none;
+     }
+     .navbar{
+        margin-top: -1vh;
+        height:10vh;
+        border: 1px solid #71B85F;
+        border-bottom-color: white;
+     }
+     #Programs1{
+        display: none;
+     }
+     #cli{
+        display: none;
+     }
+     #abb{
+        display: none;
+     }
+
+
+
+                                   /* menu ends */
+     .logo h1{
+        margin-top: -3.7vh;
+        margin-left: -15.4vw;
+     }
+     .logo p{
+        margin-left: -14.4vw;
+        margin-top: -1vh;
+     }
+     #pencil{
+        height:45px;
+        width:45px;
+        font-size: 1.4rem;
+        margin-top: -4.3vh;
+        margin-left: 33vw;
+     }
+     .main{
+        height:70vh;
+        flex-wrap: wrap;
+     }
+     .menu{
+        margin-left: -79.2vw;
+        width:100vw;
+        overflow-y: scroll; 
+     }
+     #comm{
+        font-size: 1.6rem;
+        padding-top: -3vh;
+        padding-top: -6vh;
+        text-transform: uppercase;
+     }
+     #cross{
+        height:50px;
+        width:50px;
+        font-size: 1.6rem;
+        margin-top: -12vh;
+        margin-left:80vw;
+     }
+     #select{
+        width:90vw;
+        margin-top: 10vh;
+     }
+     #inputemail{
+        width:90vw;
+        margin-top: 2vh;
+     }
+     #inputphone{
+        width:90vw;
+        margin-top: 2vh;
+     }
+     #message{
+        width:90vw;
+        height:10vh;
+        margin-top: 2vh;
+     }
+     #submit{
+        margin-top: 1vh;
+        margin-left: 20vw;
+     }
+     #food{
+        height:35vh;
+        width:35vw;
+        margin-left: 63vw;
+        background-color:transparent;
+     }
+     .main{
+        display: flex;
+     }
+     .main p{
+        font-size: 1.4rem;
+        margin-left: -1vw;
+        margin-top: -9vh;
+     }
+     .main h2{
+        font-size: 1.4rem;
+        margin-left: 35px;
+        margin-top: 16vh;
+        height:40px;width:40px;
+        display: none;
+     }
+     .main h1{
+        font-size: 3.1rem;
+        padding-top:24vh;
+        margin-left: -240px;
+     }
+     #ser{
+        font-size: 2.2rem;
+        padding-top: 210px;
+        margin-left: -273px;
+     }
+     #hidden{
+        font-size: 5rem;
+        margin-top: 50vh;
+        opacity: 10%;
+        color: white;
+        word-spacing: 10%;
+        margin-left: -160px;
+     }
+     #food{
+        height:27vh;
+        width:46vw;
+        margin-left: 50vw;
+        margin-top: -157px;
+     }
+     #description{
+        font-size: 1.2rem;
+       margin-top: -360px;
+        
+        br{
+            display: none;
+        }
+     }
+
+
+
+                                            /* about us */
+     .about{
+        height: 128vh;
+        display: flex;
+        flex-wrap: wrap;
+     }
+     #chef{
+        height: 65vh;
+        width:70vw;
+    margin-top: 3vh;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    margin-left: 17vw;
+     }
+     .about p{
+        font-size: 1.7rem;
+        margin-top: -21vh;
+        margin-left: 12vw;
+        text-transform: uppercase;
+     }
+     .about h1{
+        font-size: 1.7rem;
+        margin-left: -118px;
+        margin-top: -46vh;
+     }
+      h4{
+        font-size: 1.3rem;
+        margin-top: -37vh;
+        margin-left: 12.3vw;
+        flex-wrap:nowrap;
+     }
+     #list1{
+        margin-left: 20vw;
+        margin-top: 3vh;
+        font-size: 1.2rem;
+     }
+     #list2{
+        margin-left: 20vw;
+        margin-top: 3vh;
+        font-size: 1.2rem;
+     }
+     #list3{
+        margin-left: 20vw;
+        margin-top: 3vh;
+        font-size: 1.2rem;
+     }
+     #btn1{
+        margin-top: 10%;
+        margin-left: 25vw;
+     }  
+
+                                 /* fooditems */
+     #upperdes h3{
+       font-size: 1.3rem;
+       margin-top:-30vh;
+       text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 100%; 
+     }
+     #upperdes h1{
+        font-size: 1.9rem;
+        margin-top: 20px;
+        text-align: center;
+        display: block;
+         margin: 0 auto;
+        width: 100%; 
+      }
+      .foodsection{
+        margin-top: 10%;
+        height:1750px;
+      }
+      .fooditems{
+        flex-wrap: wrap;
+      }
+      .box1{
+        height:445px;
+        width:410px;
+        margin-top: -6%;
+        margin-left:auto;
+        margin-right: auto;
+      }
+      
+      .box1 h2{
+        font-size: 1.5rem;
+        margin-top: -130px;
+      }
+      #drink{
+        height:180px;
+        width:190px;
+        margin-left: 235px;
+        margin-top: -4px;
+       
+      }
+      
+      #dollar{
+        margin-top: 7px;
+      }
+      #price1{
+        margin-top: -48px;
+        font-size: 3.8rem;
+        margin-left: 34px;
+      }
+      #perday{
+        font-size: 1.1rem;
+        margin-top: -10px;
+        margin-left: 30px;
+      }
+      #benefits{
+        font-size: 1.2rem;
+        margin-left: 48px;
+      }
+      #ordernow1{
+        height:60px;
+        margin-left: 86px;
+        margin-top: 58px;
+      }
+
+      .box2{
+        height:445px;
+        width:410px;
+        margin-top: 15%;
+        margin-left:auto;
+        margin-right: auto;
+      }
+      #balanced{
+        font-size: 1.5rem;
+        margin-top: -120px;
+      }
+      #meal{
+        height:180px;
+        width:190px;
+        margin-left: 235px;
+        margin-top: -4px;
+       
+      }
+      
+      #dollar2{
+        margin-top: 7px;
+      }
+      #price2{
+        margin-top: -48px;
+        font-size: 3.8rem;
+        margin-left: 34px;
+      }
+      #perday2{
+        font-size: 1.1rem;
+        margin-top: -10px;
+        margin-left: 30px;
+      }
+      #benefits2{
+        font-size: 1.2rem;
+        margin-left: 48px;
+      }
+      #mealordernow{
+        height:60px;
+        margin-left: 86px;
+        margin-top: 58px;
+      }
+
+      .box3{
+        height:445px;
+        width:410px;
+        margin-top: 15%;
+        margin-left:auto;
+        margin-right: auto;
+      }
+    #arrow{
+        display: none;
+    }
+    #arrow2{
+        display: none;
+    }
+      #vegan{
+        font-size: 1.5rem;
+        margin-top: -120px;
+      }
+      #meal2{
+        height:180px;
+        width:190px;
+        margin-left: 235px;
+        margin-top: -4px;
+       
+      }
+      
+      #dollar3{
+        margin-top: 7px;
+      }
+      #price3{
+        margin-top: -48px;
+        font-size: 3.8rem;
+        margin-left: 34px;
+      }
+      #perday3{
+        font-size: 1.1rem;
+        margin-top: -10px;
+        margin-left: 30px;
+      }
+      #benefits3{
+        font-size: 1.2rem;
+        margin-left: 48px;
+      }
+      #mealordernow2{
+        height:60px;
+        margin-left: 86px;
+        margin-top: 58px;
+      }
+
+      
+                                /* how itworks */
+ 
+    .howitworks{
+        height:1300px;
+    }
+    .maintext h2{
+        font-size: 1.4rem;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        width: 100%; 
+        margin-top: 10%;
+    }
+    #steps{
+        font-size: 1.7rem;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 4%; 
+    }
+    .workboxes{
+        flex-wrap: wrap;
+        height:52vh;
+    }
+    .workbox1{
+        height:245px;
+        width:410px;
+        margin-left:10px; 
+    }
+    .workbox1:hover{
+        margin-top: -5%;
+      }
+      .workbox2:hover{
+        margin-top: 10%;
+      }
+      .workbox3:hover{
+        margin-top: 10%;
+      }
+    #choose{
+        font-size: 1.8rem;
+    }
+    .workbox2{
+        height:245px;
+        width:410px;
+        margin-left:10px;
+        margin-top: 10%;
+     }
+     #customize{
+         font-size: 1.8rem;
+     }
+     #des2{
+        font-size: 12px;
+     }
+     .workbox3{
+        height:245px;
+        width:410px;
+        margin-left:10px;
+        margin-top: 10%;
+     }
+     #data3{
+         font-size: 1.7rem;
+     }
+     #des3{
+        font-size: 10px;
+     }
+     #arrow{
+        display: none;
+     }
+     #arrow2{
+        display: none;
+     }
+
+                                  /* .qualtiessection */
+
+     .qualtiessection{
+        flex-wrap: wrap;
+        height:90vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #awesome{
+        margin-left: 35px;
+        margin-top: 23px;
+        font-size: 3.8rem;
+    }
+    #diamond h2{
+        font-size: 1.7rem;
+        margin-top:46px;
+        margin-left: 25px;
+    }
+    #diamond p{
+       font-size: 1.2rem;
+       margin-left: -155px;
+       margin-top: 13vh;
+       br{
+        display: none;
+       }
+    }
+    #organic-icon{
+        margin-left: 35px;
+        margin-top: 23px;
+        font-size: 3.4rem;
+    }
+    #organic h2{
+        font-size: 1.7rem;
+        margin-top:46px;
+        margin-left: 25px;
+    }
+    #organic  p{
+        font-size: 1.2rem;
+        margin-left: -155px;
+        margin-top: 13vh;
+        br{
+         display: none;
+        }
+    }
+    #tasty-icon{
+        margin-left: 39px;
+        margin-top: -25px;
+        font-size: 3.4rem;
+    }
+    #tasty h2{
+        font-size: 1.7rem;
+        margin-top:-8px;
+        margin-left: 28px;
+    }
+    #tasty  p{
+        font-size: 1.2rem;
+        margin-left: -122px;
+        margin-top: 8vh;
+        br{
+         display: none;
+        }
+    }
+    #deverse-icon{
+        margin-left: 39px;
+        margin-top: 13px;
+        font-size: 3.4rem;
+    }
+    #deverse h2{
+        font-size: 1.7rem;
+        margin-top:33px;
+        margin-left: 28px;
+    }
+    #deverse p{
+        font-size: 1.2rem;
+        margin-left: -165px;
+        margin-top: 12vh;
+        br{
+         display: none;
+        }
+    }
+    #food2{
+        display: none;
+    }
+                              /* testimonels */
+ 
+     .testimonels{
+        height:56px;
+     }   
+     .clients{
+        height:30vh;
+        width:100%;
+        display: flex;
+     }   
+     #client1{
+        height:20vh;
+        width:28vw;
+        margin-top: -1vh;
+        margin-left: -37vw;
+     } 
+     #client2{
+        height:20vh;
+        width:28vw;
+        margin-top: -1vh;
+        margin-left: 8vw;
+     } 
+     #client3{
+        height:20vh;
+        width:28vw;
+        margin-top: -24vh;
+        margin-left: 38vw;
+     }  
+     .clientsay{
+        margin-top: -3vh;
+     }
+     .clientsay h2{
+        font-size: 1.3rem;
+        margin-left: -50vw;
+     } 
+     .clientsay h1{
+        font-size: 2.4rem;
+        margin-left: -51vw;
+        font-weight: 900;
+     }
+     .clientsay p{
+        font-size: 1.2rem;
+        margin-left: -50vw;
+        br{
+            display: none;
+        }
+     } 
+     #send{
+        margin-left: -40vw;
+        font-size: 1.4rem;
+     }       
+     #roundbox1{
+        margin-top: -30.4vh;
+        background-color:#71B85F;
+     }  
+     #roundbox2{
+        margin-top: -8.3vh;
+        height:33px;
+        width:33px;
+        background-color:#71B85F;
+     }  
+
+
+
+     .footer{
+        margin-top: 500px;
+        height:110vh;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tastelogo{
+        text-wrap:nowrap;
+        margin-left: -44vw
+    }
+    .tastelogo h2{
+        font-size: 1.4rem;
+        margin-left: 40vw;
+    }
+    .tastelogo h3{
+        font-size: 1.1rem;
+        font-weight: 200;
+        margin-left: 40vw;
+    }
+    .tastelogo p{
+        font-size: 1.1rem;
+        font-weight: 200;
+        margin-left: 40vw;
+        margin-top: 5px;
+    }
+    .contacts{
+        margin-top: 18vh;
+        margin-left: 2vw;
+    }
+    .contacts h3{
+        font-size: 1.1rem;
+        margin-left: -15vw;
+    }
+    #ph{
+        font-size: 0.6rem;
+        margin-left: -15vw;
+        margin-top: -2vh;
+    }
+    #numb{
+        font-size: 0.2rem;
+        margin-left: 6vw;
+        margin-top: -2vh;
+    }
+    #phone #ph{
+        font-size: 1.3rem;
+    }
+    #phone #numb{
+        font-size: 1.3rem;
+    }
+    #ml{
+        margin-left: -15vw;
+        margin-top: 1vh;
+    }
+    #add{
+        margin-left: 6vw;
+        margin-top: 1vh;
+    }
+    #mail #ml{
+        font-size: 1.3rem;
+    }
+    #mail #add{
+        font-size: 1.3rem;
+    }
+    #loc{
+        font-size: 1.3rem;
+        margin-left: -15vw;
+        br{
+            display: none;
+        }
+    }
+    #awfb{
+        margin-left: -14vw;
+        
+    }
+    #instalink{
+        margin-left: 3vw;
+    }
+    .links{
+        text-wrap: nowrap;
+        margin-top: 51vh;
+        margin-left: -68vw;
+    }
+    .links h2{
+        font-size: 1.1rem;
+    }
+    #how{
+        font-size: 1.1rem;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    #ab{
+        font-size: 1.1rem;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    #why{
+        font-size: 1.1rem;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    .packages{
+        text-wrap: nowrap;
+        margin-top: 75vh;
+        margin-left: -54vw;
+    }
+    .packages h2{
+        font-size: 1.1rem;
+    }
+    #de{
+        font-size: 1.1rem;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    #ba{
+        font-size: 1.1rem;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    #ve{
+        font-size: 1.1rem;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+
+
+}
+
+
+ 
+                             /* 770 to 1024 */
+
+
+
+
+
+
+  @media (min-width:769px) and (max-width:1024px){
+    html, body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .menu-bar{
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri; 
+        height:30vh;
+        background-color:transparent;
+        width:28vw;
+        margin-top: 3vh;
+        font-size: 1.5rem;
+        color: white;
+        display: block;
+        margin-left: 10px;
+     }  
+     #menubar{
+        height:10vh;
+        width:10vw;
+        font-size: 1.7rem;
+        cursor: pointer;
+        margin-top: -0.6vh;
+     }
+     #backarrow{
+        margin-left: 1.3vw;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color:white;
+        margin-top: -0.6vh;
+        display: none;
+     }
+     #menu-pro{
+        font-size: 1.2rem;
+        color: white;
+        cursor: pointer;
+        margin-top: 1vh;
+        display: none;
+     }
+     #menu-cli{
+        font-size: 1.2rem;
+        color: white;
+        cursor: pointer;
+        margin-top: 1vh;
+        display: none;
+     }
+     #menu-abb{
+            font-size: 1.2rem;
+            color: white;
+            cursor: pointer;
+            margin-top: 1vh;
+            display: none;
+     }
+     .navbar{
+        margin-top: -1vh;
+        height:10vh;
+        border: 1px solid #71B85F;
+        border-bottom-color: white;
+     }
+     #Programs1{
+        display: none;
+     }
+     #cli{
+        display: none;
+     }
+     #abb{
+        display: none;
+     }
+
+
+
+                                   /* menu ends */
+     .logo h1{
+        margin-top: -3.7vh;
+        margin-left: -14.8vw;
+     }
+     .logo p{
+        margin-left: -14.4vw;
+        margin-top: -1vh;
+     }
+     #pencil{
+        height:45px;
+        width:45px;
+        font-size: 1.5rem;
+        margin-top: -4.3vh;
+        margin-left: 33vw;
+     }
+     .main{
+        height:70vh;
+        flex-wrap: wrap;
+     }
+     .menu{
+        margin-left: -79.2vw;
+        width:100vw;
+        overflow-y: scroll; 
+     }
+     #comm{
+        font-size: 1.7rem;
+        padding-top: -3vh;
+        padding-top: -6vh;
+        text-transform: uppercase;
+     }
+     #cross{
+        height:50px;
+        width:50px;
+        font-size: 1.7rem;
+        margin-top: -12vh;
+        margin-left:80vw;
+     }
+     #select{
+        width:90vw;
+        margin-top: 10vh;
+     }
+     #inputemail{
+        width:90vw;
+        margin-top: 2vh;
+     }
+     #inputphone{
+        width:90vw;
+        margin-top: 2vh;
+     }
+     #message{
+        width:90vw;
+        height:10vh;
+        margin-top: 2vh;
+     }
+     #submit{
+        margin-top: 1vh;
+        margin-left: 20vw;
+     }
+     #food{
+        height:35vh;
+        width:35vw;
+        margin-left: 63vw;
+        background-color:transparent;
+     }
+     .main{
+        display: flex;
+     }
+     .main p{
+        font-size: 1.4rem;
+        margin-left: -3vw;
+        margin-top: -9vh;
+     }
+     .main h2{
+        font-size: 1.4rem;
+        margin-left: 15px;
+        margin-top: 16vh;
+        height:40px;width:40px;
+        display: none;
+     }
+     .main h1{
+        font-size: 3.1rem;
+        padding-top:24vh;
+        margin-left: -250px;
+        z-index: 1000;
+     }
+     #ser{
+        font-size: 2.2rem;
+        padding-top: 210px;
+        margin-left: -293px;
+        z-index: 1000;
+     }
+     #hidden{
+        font-size: 7rem;
+        margin-top: 50vh;
+        opacity: 10%;
+        color: white;
+        word-spacing: 10%;
+        margin-left: -160px;
+     }
+     #food{
+        height:37vh;
+        width:35vw;
+        margin-left: 64vw;
+        margin-top: -263px;
+     }
+     #description{
+        font-size: 1.2rem;
+       margin-top: -390px;
+       margin-left: -1.5px;
+     }
+     
+                                            /* about us */
+     .about{
+        height: 148vh;
+        display: flex;
+        flex-wrap: wrap;
+     }
+     #chef{
+        height: 105vh;
+        width:70vw;
+    margin-top: 3vh;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    margin-left: 17vw;
+     }
+     .about p{
+        font-size: 1.7rem;
+        margin-top: -17vh;
+        margin-left: 12.4vw;
+        text-transform: uppercase;
+     }
+     .about h1{
+        font-size: 1.7rem;
+        margin-left: -122px;
+        margin-top: -42vh;
+     }
+      h4{
+        font-size: 1.3rem;
+        margin-top: -22vh;
+        margin-left: 12.3vw;
+        flex-wrap:nowrap;
+     }
+     #list1{
+        margin-left: 20vw;
+        margin-top: 3vh;
+        font-size: 1.25rem;
+     }
+     #list2{
+        margin-left: 20vw;
+        margin-top: 3vh;
+        font-size: 1.25rem;
+     }
+     #list3{
+        margin-left: 20vw;
+        margin-top: 3vh;
+        font-size: 1.25rem;
+     }
+     #btn1{
+        margin-top: 10%;
+        margin-left: 25vw;
+     }  
+
+                                 /* fooditems */
+     #upperdes h3{
+       font-size: 1.4rem;
+       margin-top:-30vh;
+       text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 100%; 
+     }
+     #upperdes h1{
+        font-size: 2rem;
+        margin-top: 20px;
+        text-align: center;
+        display: block;
+         margin: 0 auto;
+        width: 100%; 
+      }
+      .foodsection{
+        margin-top: 10%;
+        height:1300px;
+      }
+      .fooditems{
+        flex-wrap: wrap;
+      }
+      .box1{
+        height:480px;
+        width:350px;
+        margin-top: -6%;
+        margin-left:auto;
+      }
+      .box1 h2{
+        font-size: 1.5rem;
+        margin-top: -137px;
+        margin-left: 15px;
+      }
+      #drink{
+        height:180px;
+        width:170px;
+        margin-left: 190px;
+        margin-top: -4px;
+       
+      }
+      
+      #dollar{
+        margin-top: 7px;
+        margin-left: 20px;
+      }
+      #price1{
+        margin-top: -48px;
+        font-size: 3.8rem;
+        margin-left: 30px;
+      }
+      #perday{
+        font-size: 1.1rem;
+        margin-top: -10px;
+        margin-left: 39px;
+      }
+      #benefits{
+        font-size: 1.2rem;
+        margin-left: 40px;
+      }
+      #ordernow1{
+        height:60px;
+        margin-left: 60px;
+        margin-top: 58px;
+      }
+
+      .box2{
+        height:480px;
+        width:350px;
+        margin-top: -6%;
+        margin-right: auto;
+      }
+      #balanced{
+        font-size: 1.5rem;
+        margin-top: -137px;
+        margin-left: 15px;
+      }
+      #meal{
+        height:180px;
+        width:170px;
+        margin-left: 190px;
+        margin-top: -4px;
+       
+      }
+      #dollar2{
+        margin-top: 7px;
+        margin-left: 20px;
+      }
+      #price2{
+        margin-top: -48px;
+        font-size: 3.8rem;
+        margin-left: 30px;
+      }
+      #perday2{
+        font-size: 1.1rem;
+        margin-top: -10px;
+        margin-left: 39px;
+      }
+      #benefits2{
+        font-size: 1.2rem;
+        margin-left: 40px;
+      }
+      #mealordernow{
+        height:60px;
+        margin-left: 60px;
+        margin-top: 58px;
+      }
+      .box3{
+        height:480px;
+        width:350px;
+        margin-top: 6%;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      #vegan{
+        font-size: 1.5rem;
+        margin-top: -137px;
+        margin-left: 15px;
+      }
+      #meal2{
+        height:180px;
+        width:170px;
+        margin-left: 190px;
+        margin-top: -4px;
+       
+      }
+      #dollar3{
+        margin-top: 7px;
+        margin-left: 20px;
+      }
+      #price3{
+        margin-top: -48px;
+        font-size: 3.8rem;
+        margin-left: 30px;
+      }
+      #perday3{
+        font-size: 1.1rem;
+        margin-top: -10px;
+        margin-left: 39px;
+      }
+      #benefits3{
+        font-size: 1.2rem;
+        margin-left: 40px;
+      }
+      #mealordernow2{
+        height:60px;
+        margin-left: 60px;
+        margin-top: 58px;
+      }
+
+
+                            /* how it works section */
+      .howitworks{
+        height:1000px;
+    }
+    .maintext h2{
+        font-size: 1.5rem;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        width: 100%; 
+        margin-top: 10%;
+    }
+    #steps{
+        font-size: 1.8rem;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 4%; 
+    }
+    .workboxes{
+        flex-wrap: wrap;
+        height:52vh;
+    }
+    .workbox1{
+        height:245px;
+        width:360px;
+        margin-left:-10px; 
+    }
+    #choose{
+        font-size: 1.8rem;
+    }
+    .workbox2{
+        height:245px;
+        width:360px;
+        margin-left:4px;
+     }
+     #customize{
+         font-size: 1.8rem;
+     }
+     #des2{
+        font-size: 12px;
+     }
+     .workbox3{
+        height:245px;
+        width:360px;
+        margin-left:10px;
+        margin-top: 5%;
+     }
+     #data3{
+         font-size: 1.7rem;
+     }
+     #des3{
+        font-size: 10px;
+     }
+     #arrow{
+        display: none;
+     }
+     #arrow2{
+        display: none;
+     }
+
+                                  /* .qualtiessection */
+
+     .qualtiessection{
+    height:80vh;
+    width: 100%;
+    background-color: #71B85F;
+    display: flex;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+    
+
+}
+#diamond{
+    display: flex;
+    
+}
+#awesome{
+    height: 10px;
+    width:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    color: white;
+    margin-top: 18vh;
+    margin-left: 68px;
+}
+#diamond h2{
+    margin-top: 17vh;
+    color: white;
+    margin-left: 25px;
+    font-size: 3vh;
+    font-weight: 600;
+}
+#diamond p{
+    font-size: 1.3rem;
+    color: white;
+    margin-top: 24vh;
+    margin-left: -143.2px;
+}
+#organic{
+    display: flex;
+    margin-top: -7vh;
+
+}
+#organic-icon{
+height:10px;
+width:15px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 4rem;
+color: white;
+margin-top: 18vh;
+margin-left: 68px;
+}
+#organic h2{
+margin-top: 17vh;
+color: white;
+margin-left: 25px;
+font-size: 3vh;
+font-weight: 600;
+}
+#organic p{
+font-size: 1.3rem;
+color: white;
+margin-top: 24vh;
+margin-left: -143.2px;
+}
+/* /////////// */
+.tocennter{
+    display: flex;
+}
+#tasty{
+    display: flex;
+}
+#tasty-icon{
+    height:10px;
+    width:15px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 4rem;
+color: white;
+margin-top: 19.5vh;
+margin-left: 95px;
+}
+#tasty h2{
+margin-top: 17vh;
+color: white;
+margin-left: 30px;
+font-size: 3vh;
+font-weight: 600;
+}
+#tasty p{
+font-size: 1.3rem;
+color: white;
+margin-top: 24vh;
+margin-left: -143.2px;
+}
+#deverse-icon{
+    height:10px;
+    width:15px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 4rem;
+color: white;
+margin-top: 11.5vh;
+margin-left: 95px;
+}
+#deverse h2{
+margin-top: 10vh;
+color: white;
+margin-left: 30px;
+font-size: 3vh;
+font-weight: 600;
+}
+#deverse p{
+font-size: 1.3rem;
+color: white;
+margin-top: 17vh;
+margin-left: -173.2px;
+}
+#food2{
+    display: none;
+}
+   
+  .testimonels{
+    height:700px;
+ }   
+ .clients{
+    height:30vh;
+    width:100%;
+    display: flex;
+ }   
+ #client1{
+    height:25vh;
+    width:28vw;
+    margin-top: -1vh;
+    margin-left: -37vw;
+ } 
+ #client2{
+    height:25vh;
+    width:28vw;
+    margin-top: -1vh;
+    margin-left: 8vw;
+ } 
+ #client3{
+    height:25vh;
+    width:28vw;
+    margin-top: -27vh;
+    margin-left: 38vw;
+ }  
+ .clientsay{
+    margin-top: -3vh;
+ }
+ .clientsay h2{
+    font-size: 1.4rem;
+    margin-left: -50vw;
+ } 
+ .clientsay h1{
+    font-size: 2.5rem;
+    margin-left: -51vw;
+    font-weight: 900;
+ }
+ .clientsay p{
+    font-size: 1.3rem;
+    margin-left: -50vw;
+ } 
+ #send{
+    margin-left: -40vw;
+    font-size: 1.5rem;
+    margin-top: 5vh;
+ }       
+ #roundbox1{
+    height:40px;
+    width:40px;
+    margin-top: -32.4vh;
+    background-color: yellowgreen;
+ }  
+ #roundbox2{
+    margin-top: -5.3vh;
+    height:40px;
+    width:40px;
+    background-color:#71B85F;
+ }  
+
+                             /* fotter */
+
+
+ .footer{
+    height:83vh;
+    background-color:#f4faf2;
+}
+.footerdata{
+    display: flex;
+    justify-content: center;
+    padding-top: 7%;
+    margin-left: 9%;
+    margin-right: 9%;
+    gap: 4vw;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri; 
+    flex-wrap: wrap;
+}
+.tastelogo{
+    height:30vh;
+    width:50vw;
+    margin-left: -200px;
+}
+.tastelogo h2:hover{
+    cursor: pointer;
+}
+.tastelogo h2{
+    color:black;
+    font-size: 3.3vh;
+    margin-left: -40px;
+}
+.tastelogo h3{
+    font-size: 1.9vh;
+    margin-left: 1.9%;
+    color:black;
+    margin-left: -40px;
+    text-wrap: nowrap;
+}
+.tastelogo p{
+    color:#454343;
+    margin-top: 1vh;
+    text-wrap: nowrap;
+    margin-left: -40px;
+}
+.tastelogo a{
+    font-weight: 600;
+    margin-top: -6.2vh;
+    margin-left: 0.3vw;
+    color:black;
+    text-decoration: none;
+}
+/*     */
+
+.contacts{
+    height:30vh;
+    width:50vw;
+    margin-left: 450px;
+    margin-top: -230px;
+}
+.contacts h3{
+    color:black;
+    font-size: 2.6vh;
+}
+#phone{
+    display: flex;
+    margin-top: 3vh;
+    gap: 2vw;
+}
+#phone #ph{
+    color:#454343;
+    font-size: 2.7vh;
+    font-weight: 300;
+}
+#phone h5{
+    color:black;
+    font-size: 2.7vh;
+    font-weight: 370;
+}
+#mail{
+    display: flex;
+    gap: 2vw;
+    margin-top: 1vh;
+}
+#ml{
+    color: #454343;
+    font-size: 2.7vh;
+    font-weight: 370;
+}
+#mail #add{
+    color: black;
+    font-size: 2.7vh;
+    font-weight: 370;
+}
+#loc{
+    color:black;
+    font-size: 2.7vh;
+    margin-top: 2vh;
+    font-weight: 200;
+    margin-left: 0.5vw;
+}
+#awfb{
+    text-decoration: none;
+}
+#fb{
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:35px;
+    width: 35px;
+    font-size: 20px;
+    border: 0.7px solid rgb(110, 109, 109);
+    border-radius: 50%;
+    margin-left: 2vw;
+}
+.linkss{
+    display: flex;
+}
+#insta{
+    text-decoration: none;
+    margin-left: 4vw;
+}
+#instalink{
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:35px;
+    width: 35px;
+    font-size: 20px;
+    border: 0.7px solid rgb(110, 109, 109);
+    border-radius: 50%;
+}
+.links{
+    height:30vh;
+    width:50vw;
+    margin-top: 1%;
+    margin-left: -254px;
+}
+.links h2{
+    font-size: 2.5vh;
+    color:black;
+}
+#ab:hover{
+    cursor: pointer;
+}
+#ab{
+    font-size: 2.7vh;
+    font-weight: 370;
+    margin-top: 1.4vh;
+}
+#how{
+    margin-top: 4vh;
+    font-size: 2.7vh;
+    font-weight: 370;
+}
+#how:hover{
+    cursor: pointer;
+}
+#why{
+    font-size: 2.7vh;
+    font-weight: 370;
+    margin-top: 1.4vh;
+}
+#why:hover{
+    cursor: pointer;
+}
+.packages{
+    height:30vh;
+    width:50vw;
+    margin-left: 450px;
+    margin-top: -230px;
+}
+.packages h2{
+    font-size: 2.5vh;
+    color:black;
+}
+#de{
+    font-size: 2.7vh;
+    font-weight: 370;
+    margin-top: 3.5vh;
+}
+#de:hover{
+    cursor: pointer;
+}
+#ba{
+    margin-top: 2vh;
+    font-size: 2.7vh;
+    font-weight: 370;
+}
+#ba:hover{
+    cursor: pointer;
+}
+#ve{
+    font-size: 2.7vh;
+    font-weight: 370;
+    margin-top: 1.4vh;
+}
+#ve:hover{
+    cursor: pointer;
+}
+
+
+ 
+  }
+
+
+
+
+
+
+  @media (min-width:1025px)and (max-width:1200px){
+    html, body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .main{
+        height:110vh;
+        background-color:#71B85F;
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+        color: white;
+    }
+    .main p{
+        padding-top:20vh;
+        padding-left: 6vw;
+        font-size:1.7rem;
+        font-weight: bolder;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .main h2{
+        margin-left: 6vw;
+        height:50px;
+        width:50px;
+        border-radius: 50%;
+        color: black;
+        background-color:#feef63;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8vh;
+    }
+    .main h1{
+        padding-left: 7.5vw;
+        margin-top: -8.1vh;
+        font-size: 14vh;
+        font-weight: 900;
+        clip-path: polygon(13.3% 1.6%, 100% 0%, 100% 80%, 60% 80%, 60% 100%, 0% 100%);
+    }
+    #ser{
+        padding-left: 7.5vw;
+        padding-top: 6vh;
+        font-size: 6vw;
+        font-weight: 900;
+    }
+    #hidden{
+        margin-top: -49vh;
+        font-size: 30vw;
+        font-weight: 900;
+        opacity: 7%;
+       position:relative;
+    }
+    #food{
+        height:60vh;
+        width:50vw;
+        object-fit: contain;
+       padding-top: 150vh;
+       margin-left: 52.8vw;
+    }
+    #description{
+       color:white;
+       margin-top: -54vh;
+       margin-left: 2vw;
+       font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+       font-size: larger;
+       word-spacing: 50%;
+       font-weight: bolder;
+    }
+    .menu{
+        margin-left: -43.2vw;
+        width:50vw;
+        overflow-y: scroll; 
+     }
+     #comm{
+        font-size: 1.7rem;
+        padding-top: -3vh;
+        padding-top: -6vh;
+        text-transform: uppercase;
+     }
+     #cross{
+        height:50px;
+        width:50px;
+        font-size: 1.7rem;
+        margin-top: -12vh;
+        margin-left:42vw;
+     }
+     #select{
+        width:40vw;
+        margin-top: 10vh;
+     }
+     #inputemail{
+        width:40vw;
+        margin-top: 2vh;
+     }
+     #inputphone{
+        width:40vw;
+        margin-top: 2vh;
+     }
+     #message{
+        width:40vw;
+        height:20vh;
+     }
+     #submit{
+        margin-top: 3vh;
+        margin-left: 10vw;
+     }
+     #chef{
+        background-image: url("Cheff.png");
+        height:640px;
+        width:445px;
+        margin-top: 5vh;
+        margin-left: 2vw;
+        background-size:auto;
+    }
+    .about p{
+        margin-top: 120px;
+        margin-left: 135px;
+        font-size: 5vh;
+        color:#343a40;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-wrap: nowrap;
+    }
+    .about h1{
+         color:Black;
+         text-transform: uppercase;
+         font-size: 7vh;
+         font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+         font-weight: 700;
+         padding-top: 29vh;
+         margin-left: -12.6vw;
+         text-wrap: nowrap;
+    }
+    #benefits{
+        margin-left: 3.6vw;
+        margin-top: 3.5vh;
+        font-size: 3vh;
+        color:rgb(66, 65, 65);
+        br{
+            display: none;
+        }
+    }
+    .fooditems{
+        margin-top: 13vh;
+        display: flex;
+        gap:3vw;
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri; 
+    }
+    .box1{
+        height:70vh;
+        width:30vw;
+        background-color:white;
+        border-top-left-radius: 5%;
+        border-bottom-left-radius: 17%;
+        border-bottom-right-radius: 17%;
+        border-top-right-radius: 37%;
+    }
+    #drink{
+        height:30vh;
+        width:15vw;
+        object-fit: contain;
+        margin-left: 16vw;
+        margin-top: -3vh;
+    }
+    .box1 h2{
+        margin-left: 3.2vw;
+        margin-top: -24.5vh;
+        font-weight: 700;
+    }
+    #dollar{
+        margin-top: 5vh;
+    }
+    #price1{
+        font-size:13vh;
+        margin-top: -8.5vh;
+        margin-left: 4vw;
+        word-spacing: 2%;
+    }
+    #perday{
+        font-size: 3.6vh;
+        margin-left: 5vw;
+        margin-top: -2.4vh;
+    }
+    #benefits{
+        margin-left: 3.6vw;
+        margin-top: 4vh;
+        font-size: 3vh;
+        color:rgb(66, 65, 65);
+    }
+    #ordernow1{
+        height:70px;
+        width:190px;
+        font-size: 3vh;
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri; 
+        font-weight: 700;
+        margin-left: 5vw;
+        margin-top: 4vh;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        border: none;
+        background-color: #71B85F;
+        color: white;
+    }
+    #ordernow1:hover{
+    background-color:rgb(26, 26, 26);
+    color: white;
+    cursor: pointer;
+    }
+    /* ///order2/// */
+    .box2{
+        height:70vh;
+        width:30vw;
+        background-color:white;
+        border-top-left-radius: 5%;
+        border-bottom-left-radius: 17%;
+        border-bottom-right-radius: 17%;
+        border-top-right-radius: 37%;
+    }
+    #meal{
+        height:30vh;
+        width:15vw;
+        object-fit: contain;
+        margin-left: 16.2vw;
+        margin-top: -2.2vh;
+    }
+    #balanced{
+        margin-left: 2.7vw;
+        margin-top: -24.5vh;
+        font-weight: 700;
+    }
+    #dollar2{
+        margin-top: 5vh;
+        margin-left: 3vw;
+    }
+    #price2{
+        font-size:13vh;
+        margin-top: -8.5vh;
+        margin-left: 4vw;
+        word-spacing: 2%;
+    }
+    #perday2{
+        font-size: 3.6vh;
+        margin-left: 5vw;
+        margin-top: -2.4vh;
+    }
+    #benefits2{
+        margin-left: 3.6vw;
+        margin-top: 3.5vh;
+        font-size: 3vh;
+        color:rgb(66, 65, 65);
+    }
+    #mealordernow{
+        height:70px;
+        width:190px;
+        font-size: 3vh;
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri; 
+        font-weight: 700;
+        margin-left: 5vw;
+        margin-top: 8vh;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        border: none;
+        background-color: #71B85F;
+        color: white;
+    }
+    #mealordernow:hover{
+        background-color:rgb(26, 26, 26);
+        color: white;
+        cursor: pointer;
+        }
+     /* box 3 */
+     .box3{
+        height:70vh;
+        width:30vw;
+        background-color:white;
+        border-top-left-radius: 5%;
+        border-bottom-left-radius: 17%;
+        border-bottom-right-radius: 17%;
+        border-top-right-radius: 37%;
+    }
+    #meal2{
+        height:30vh;
+        width:15vw;
+        object-fit: contain;
+        margin-left: 16vw;
+        margin-top: -2vh;
+    }
+    #vegan{
+        margin-left: 3.2vw;
+        margin-top: -24.5vh;
+        font-weight: 700;
+    }
+    #dollar3{
+        margin-top: 5vh;
+        margin-left: 3vw;
+    }
+    #price3{
+        font-size:13vh;
+        margin-top: -8.5vh;
+        margin-left: 4vw;
+        word-spacing: 2%;
+    }
+    #perday3{
+        font-size: 3.6vh;
+        margin-left: 5vw;
+        margin-top: -2.4vh;
+    }
+    #benefits3{
+        margin-left: 3.6vw;
+        margin-top: 4vh;
+        font-size: 3vh;
+        color:rgb(66, 65, 65);
+    }
+    #mealordernow2{
+        height:70px;
+        width:190px;
+        font-size: 3vh;
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri; 
+        font-weight: 700;
+        margin-left: 5vw;
+        margin-top: 3.5vh;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        border: none;
+        background-color: #71B85F;
+        color: white;
+    }
+    #mealordernow2:hover{
+        background-color:rgb(26, 26, 26);
+        color: white;
+        cursor: pointer;
+        }
+        .howitworks{
+    height: 90vh;
+    background-color:white;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+    display: flex;
+justify-content: center;
+}
+.maintext h2{
+    font-size: 4.3vh;
+    font-weight: 200px;
+    text-transform: uppercase;
+    color:#5c5f5c;
+    margin-top: 13vh;
+    margin-left: 39vw;
+    word-spacing: 70%;
+}
+#steps{
+    font-size: 7.6vh;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: black;
+    margin-top: 3vh;
+    margin-left: 23vw;
+}
+.workboxes{
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    margin-top: 12vh;
+    margin-left: 2%;
+}
+.workbox1{
+    height:34.6vh;
+    width:26vw;
+    background-color: #fbf29f;
+    border-top-left-radius: 24%;
+    border-bottom-right-radius: 24%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    
+}
+#num1{
+   font-size: 4vh;
+    height:65px;
+    width:65px;
+    border-radius: 50%;
+    color: rgb(94, 86, 86) ;
+    opacity: 90%;
+    background-color:#FFF;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:  0px 0px  0px  rgb(94, 86, 86),3.5px 3.5px 5px rgb(94, 86, 86);
+    margin-top: -2vh;
+    margin-left: -0.7vw;
+}
+#choose{
+    font-size: 3.5vh;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 0vh;
+    margin-left: 3vw;
+}
+.workbox1 #des{
+    font-size: 1.4rem;
+    font-weight: 200;
+    margin-left: 3vw;
+    margin-top: 2vh;
+    br{
+        display: none;
+    }
+}
+#arrow{
+   height:3vh;
+   width:8vw;
+   opacity: 100%;
+   background-size: contain;
+   margin-left: -2vw;
+   margin-top: 15vh;
+}
+.workbox1:hover{
+    margin-top: -1vh;
+    cursor: pointer;
+}
+/* ///// */
+.workbox2{
+    background-color: #d6eee6;
+    height:34.6vh;
+    width:26vw;
+    border-top-left-radius: 24%;
+    border-bottom-right-radius: 24%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    margin-left: -2.5vw;
+}
+#num2{
+    font-size: 4vh;
+     height:65px;
+     width:65px;
+     border-radius: 50%;
+     color: rgb(94, 86, 86) ;
+     opacity: 90%;
+     background-color:#FFF;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     box-shadow:  0px 0px  0px  rgb(94, 86, 86),3.5px 3.5px 5px rgb(94, 86, 86);
+     margin-top: -2vh;
+     margin-left: -0.7vw;
+ }
+ #customize{
+     font-size: 3.5vh;
+     text-transform: uppercase;
+     font-weight: 600;
+     margin-top: 0vh;
+     margin-left: 3vw;
+ }
+ .workbox2 #des2{
+     font-size: 1.4rem;
+     font-weight: 200;
+     margin-left: 3vw;
+     margin-top: 2vh;
+     br{
+        display: none;
+     }
+ }
+ #arrow2{
+    height:3vh;
+    width:8vw;
+    opacity: 100%;
+    background-size: contain;
+    margin-left: -2vw;
+    margin-top: 15vh;
+ }
+ .workbox2:hover{
+    margin-top: -1vh;
+    cursor: pointer;
+}
+
+ /* ///// */
+ .workbox3{
+    background-color: #cdd9db;
+    height:34.6vh;
+    width:26vw;
+    border-top-left-radius: 24%;
+    border-bottom-right-radius: 24%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    margin-left: -2vw;
+}
+#num3{
+    font-size: 4vh;
+     height:65px;
+     width:65px;
+     border-radius: 50%;
+     color: rgb(94, 86, 86) ;
+     opacity: 90%;
+     background-color:#FFF;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     box-shadow:  0px 0px  0px  rgb(94, 86, 86),3.5px 3.5px 5px rgb(94, 86, 86);
+     margin-top: -2vh;
+     margin-left: -0.7vw;
+ }
+ #data3{
+     font-size: 3.5vh;
+     text-transform: uppercase;
+     font-weight: 600;
+     margin-top: 0vh;
+     margin-left: 3vw;
+ }
+ .workbox3 #des3{
+     font-size: 1.4rem;
+     font-weight: 200;
+     margin-left: 3vw;
+     margin-top: 2vh;
+     br{
+        display: none;
+     }
+ }
+ .workbox3:hover{
+    margin-top:-1vh;
+    cursor: pointer;
+}
+.testimonels{
+    height:110vh;
+}
+.roundbox{
+    display: flex;
+    
+}
+#roundbox1{
+    display: flex;
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    margin-top: -85vh;
+    background-color: #71B85F;
+    margin-left: 15vw;
+    animation-name: anime1;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    
+}
+@keyframes anime1 {
+   from{
+     margin-left: -10vh; 
+    background-color: #71B85F;
+   }
+   to{
+    background-color: #71B85F;
+   }
+    
+}
+#roundbox2{
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+    background-color:#71B85F;
+    margin-top: -46vh;
+    margin-left: 20vw;
+}
+.clients{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    margin-left: 2%;
+    height:90vh;
+    width:50%;
+}
+#client1{
+    height:44vh;
+    width:44vh;
+    background-size: contain;
+    margin-top: 17vh;
+    padding-left: -4vw;
+   
+}
+#client2{
+    height:30vh;
+    width:30vh;
+    margin-top: -5vh;
+    background-size: contain;
+}
+#client3{
+    height:30vh;
+    width:30vh;
+    margin-top: 4vh;
+    padding-left: 27vw;
+    background-size: contain;
+}
+/*   /*/
+.clientsay {
+margin-left: 55%;
+   margin-top: -39%;
+   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+   animation: blur;
+   animation-duration: 5s;
+   animation-delay: 2s;
+   animation-iteration-count: infinite;
+   animation-direction:normal
+}
+@keyframes blur {
+   10%{
+    margin-left: 60vw;
+    opacity: 0%;
+   }
+  
+   100%{
+   
+    opacity: 100%; 
+   }
+    
+}
+.clientsay h2{
+    color:#5c5f5c;
+    text-transform: uppercase;
+    font-size: 4vh;
+    font-weight: 550;
+}
+.clientsay h1{
+    text-transform: uppercase;
+    font-size: 9vh;
+    font-weight: 650;
+    margin-top: 3%;
+}
+.clientsay p{
+    margin-top: 3%;
+    font-size: 3vh;
+    font-weight: 500;
+    word-spacing: 180%;
+    color: #5c5f5c;
+    margin-left: 1%;
+}
+#send{
+    height:70px;
+    width:210px;
+    font-size: 3vh;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri; 
+    font-weight: 700;
+    margin-left: 5vw;
+    margin-top: 13vh;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    background-color: #71B85F;
+    color: white;
+}
+#send:hover{
+    background-color:rgb(26, 26, 26);
+    color: white;
+    cursor: pointer;
+}
+
+/* footer section */
+.footer{
+    height:55vh;
+    background-color:#f4faf2;
+}
+.footerdata{
+    display: flex;
+    justify-content: center;
+    padding-top: 7%;
+    margin-left: 9%;
+    margin-right: 9%;
+    gap: 4vw;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri; 
+}
+.tastelogo{
+    height:30vh;
+    width:50vw;
+}
+.tastelogo h2:hover{
+    cursor: pointer;
+}
+.tastelogo h2{
+    color:black;
+    font-size: 5.3vh;
+}
+.tastelogo h3{
+    font-size: 1.9vh;
+    margin-left: 1.9%;
+    color:black;
+}
+.tastelogo p{
+    color:#454343;
+    margin-top: 4vh;
+}
+.tastelogo a{
+    font-weight: 600;
+    margin-top: -6.2vh;
+    margin-left: 0.3vw;
+    color:black;
+    text-decoration: none;
+}
+/*     */
+
+.contacts{
+    height:30vh;
+    width:50vw;
+}
+.contacts h3{
+    color:black;
+    font-size: 2.6vh;
+}
+#phone{
+    display: flex;
+    margin-top: 5vh;
+    gap: 2vw;
+}
+#phone #ph{
+    color:#454343;
+    font-size: 3vh;
+    font-weight: 300;
+}
+#phone h5{
+    color:black;
+    font-size: 3vh;
+    font-weight: 370;
+}
+#mail{
+    display: flex;
+    gap: 2vw;
+    margin-top: 1vh;
+}
+#ml{
+    color: #454343;
+    font-size: 3vh;
+    font-weight: 370;
+}
+#mail #add{
+    color: black;
+    font-size: 3vh;
+    font-weight: 370;
+}
+#loc{
+    color:black;
+    font-size: 3vh;
+    margin-top: 2vh;
+    font-weight: 200;
+    margin-left: 0.5vw;
+}
+#awfb{
+    text-decoration: none;
+}
+#fb{
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:35px;
+    width: 35px;
+    font-size: 20px;
+    border: 0.7px solid rgb(110, 109, 109);
+    border-radius: 50%;
+}
+.linkss{
+    display: flex;
+}
+#insta{
+    text-decoration: none;
+    margin-left: 2vw;
+}
+#instalink{
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:35px;
+    width: 35px;
+    font-size: 20px;
+    border: 0.7px solid rgb(110, 109, 109);
+    border-radius: 50%;
+}
+.links{
+    height:30vh;
+    width:50vw;
+}
+.links h2{
+    font-size: 2.8vh;
+    color:black;
+}
+#ab:hover{
+    cursor: pointer;
+}
+#ab{
+    font-size: 3vh;
+    font-weight: 370;
+    margin-top: 1.4vh;
+}
+#how{
+    margin-top: 4vh;
+    font-size: 3vh;
+    font-weight: 370;
+}
+#how:hover{
+    cursor: pointer;
+}
+#why{
+    font-size: 3vh;
+    font-weight: 370;
+    margin-top: 1.4vh;
+}
+#why:hover{
+    cursor: pointer;
+}
+.packages{
+    height:30vh;
+    width:50vw;
+}
+.packages h2{
+    font-size: 2.8vh;
+    color:black;
+}
+#de{
+    font-size: 3vh;
+    font-weight: 370;
+    margin-top: 3.5vh;
+}
+#de:hover{
+    cursor: pointer;
+}
+#ba{
+    margin-top: 2vh;
+    font-size: 3vh;
+    font-weight: 370;
+}
+#ba:hover{
+    cursor: pointer;
+}
+#ve{
+    font-size: 3vh;
+    font-weight: 370;
+    margin-top: 1.4vh;
+}
+#ve:hover{
+    cursor: pointer;
+}
+
+  }
+
+
+
+
+
+  @media (min-width:1201px)and (max-width:1400px){
+    html, body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .navbar{
+        background-color:#71B85F;
+        height:15.8vh;
+        width:100%;
+        display: flex;
+        position: fixed;
+        z-index: 1000;
+    
+     }
+     .menu{
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+        height:108vh;
+        width:55vw;
+        background-color:white;
+        margin-left: -29.5vw;
+        margin-top: -10vh;
+        display: none;
+        
+     }
+     .menu-bar{
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri; 
+        height:90vh;
+        background-color:transparent;
+        width:28vw;
+        margin-top: 6vh;
+        font-size: 1.4rem;
+        color: white;
+        z-index: 1000;
+        display: none;
+        
+     }  
+     
+    #comm{
+        color: black;
+        margin-left: 2vw;
+        margin-top: 15vh;
+        font-size: 5vh;
+        font-weight: 800;
+     }
+     #cross{
+        color:black;
+        font-size:33px;
+        margin-left: 29vw;
+        height:70px;
+        width:70px;  
+        background-color:white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -10vh;
+        box-shadow:  0px 0px  0px  rgb(94, 86, 86),3.5px 3.5px 15px rgb(94, 86, 86);
+        cursor:pointer;
+    }
+     #select{
+        margin-top: 8vh;
+        height:7vh;
+        width: 28vw;
+        margin-left: 2vw;
+        font-family:"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+        border: 1px solid rgb(101, 99, 99);
+        font-size: 1rem;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        text-transform: uppercase;
+     }
+     #inputemail{
+        margin-top: 5vh;
+        height:7vh;
+        width: 28vw;
+        margin-left: 2vw;
+        font-family:"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+        border: 1px solid rgb(101, 99, 99);
+        font-size: 1rem;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        text-transform: uppercase;
+     }
+     #inputphone{
+        margin-top: 5vh;
+        height:7vh;
+        width: 28vw;
+        margin-left: 2vw;
+        font-family:"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+        border: 1px solid rgb(101, 99, 99);
+        font-size: 1rem;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        
+     }
+     #submit{
+        height:55px;
+        width:180px;
+        background-color:#71B85F;
+        font-size: 23px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+         font-weight: 600;
+         border-top-left-radius: 40px;
+         border-top-right-radius: 40px;
+         border-bottom-left-radius: 40px;
+         border-bottom-right-radius: 40px;
+         border: none;
+        margin-top: 13vh;
+        margin-left: -24vw;
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+        cursor: pointer;
+     }
+     #submit:hover{
+        background-color:rgb(29, 29, 29);
+        color: white;
+     }
+     #message{
+        height:17vh;
+        width: 28vw;
+        margin-top: 5vh;
+        margin-left: 2vw;
+        font-family:"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+        border: 1px solid rgb(101, 99, 99);
+        font-size: 1rem;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        columns: 5;
+     }
+     .logo{
+       font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+       padding-top: 4.4vh;
+       padding-left: 6vw;
+       color: white;
+     }
+     .logo:hover{
+        cursor: pointer;
+     }
+     .logo p{
+        font-size: small;
+        margin-left: 0.3vw; 
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+        font-weight: 600;
+     }
+    .navelements{
+      display: flex;
+      padding-top: 6.3vh;
+      padding-left: 10vw;
+      gap: 4vw;
+      color: white;
+      font-size: medium;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: 500;
+    }
+    #Programs1{
+        height: 5vh;
+        width:8vw;
+    }
+    #Programs1:hover{
+            border-bottom: solid white;
+            cursor: pointer;
+    }
+    #cli{
+        height: 5vh;
+        width:5.8vw;
+        margin-left: 1vw;
+    }
+    #cli:hover{
+            border-bottom: solid white;
+            cursor: pointer;
+    }
+    #abb{
+        height: 5vh;
+        width:5vw;
+        margin-left: 1vw;
+    }
+    #abb:hover{
+            border-bottom: solid white;
+            cursor: pointer;
+    }
+    #pencil{
+        color:black;
+        font-size:33px;
+        margin-left: 27vw;
+        height:70px;
+        width:70px;  
+        background-color:white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -2vh;
+    }
+    #pencil:hover{
+        cursor: pointer;
+    }
+    
+    .main{
+        height:110vh;
+        background-color:#71B85F;
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+        color: white;
+    }
+    .main p{
+        padding-top:20vh;
+        padding-left: 6vw;
+        font-size:2vw;
+        font-weight: bolder;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .main h2{
+        margin-left: 6vw;
+        height:50px;
+        width:50px;
+        border-radius: 50%;
+        color: black;
+        background-color:#feef63;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8vh;
+    }
+    .main h1{
+        padding-left: 7.5vw;
+        margin-top: -8.1vh;
+        font-size: 14vh;
+        font-weight: 900;
+        clip-path: polygon(13.3% 1.6%, 100% 0%, 100% 80%, 60% 80%, 60% 100%, 0% 100%);
+    }
+    #ser{
+        padding-left: 7.5vw;
+        padding-top: 6vh;
+        font-size: 6vw;
+        font-weight: 900;
+    }
+    #hidden{
+        margin-top: -49vh;
+        font-size: 30vw;
+        font-weight: 900;
+        opacity: 7%;
+       position:relative;
+    }
+    #food{
+        height:80vh;
+        width:50vw;
+        object-fit: contain;
+       margin-top: -190vh;
+       margin-left: 47.8vw;
+    }
+    #description{
+       color:white;
+       margin-top: -54vh;
+       margin-left: 2vw;
+       font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+       font-size: larger;
+       word-spacing: 50%;
+       font-weight: bolder;
+    }
+    .about{
+        background-color:rgb(253, 253, 252);
+        height:100vh;
+        display: flex;
+        
+    }
+    #chef{
+        background-image: url("Cheff.png");
+        height:96vh;
+        width:32.8vw;
+        margin-top: 5vh;
+        margin-left: 10vw;
+        background-size:auto;
+    }
+    .about p{
+        margin-top: 120px;
+        margin-left: 130px;
+        font-size: 5vh;
+        color:#343a40;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .about h1{
+         color:Black;
+         text-transform: uppercase;
+         font-size: 7vh;
+         font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+         font-weight: 700;
+         padding-top: 29vh;
+         margin-left: -9.6vw;
+    }
+    h4{
+        color:rgb(41, 41, 41);
+        margin-top: -48vh;
+        margin-left: 52vw;
+        font-size: 3vh;
+        font-weight: 100;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .subextra li{
+        font-size: 3vh;
+        font-weight: 600;
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+        color:rgb(37, 37, 37);
+        margin-left: 54.5vw;
+        margin-top: 4.6vh;
+    }
+    #btn1{
+        height:55px;
+        width:180px;
+        background-color:#71B85F;
+        font-size: 23px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+         font-weight: 600;
+         border-top-left-radius: 40px;
+         border-top-right-radius: 40px;
+         border-bottom-left-radius: 40px;
+         border-bottom-right-radius: 40px;
+         margin-left: 60vw;
+         border: none;
+        margin-top: 2vh;
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+    }
+    #btn1:hover{
+        background-color:rgb(26, 26, 26);
+        color: white;
+        cursor: pointer;
+    }
+    .foodsection{
+        height:135vh;
+        background-color:#71B85F;
+       margin-top: 10px;
+       display: flex;
+       justify-content: center;
+       
+    }
+    #upperdes {
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri; 
+    }
+    #upperdes h3{
+        font-size: 5vh;
+        font-weight: 200px;
+        text-transform: uppercase;
+        color:#d4f6d4;
+        margin-top: 15vh;
+        margin-left: 33vw;
+    }
+    #upperdes h1{
+         font-size: 8vh;
+         font-weight: 800;
+         text-transform: uppercase;
+         color: white;
+         margin-top: 3vh;
+         margin-left: 27vw;
+         
+    }
+    .fooditems{
+        margin-top: 13vh;
+        display: flex;
+        gap:3vw;
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri; 
+    }
+    .box1{
+        height:70vh;
+        width:27vw;
+        background-color:white;
+        border-top-left-radius: 5%;
+        border-bottom-left-radius: 17%;
+        border-bottom-right-radius: 17%;
+        border-top-right-radius: 37%;
+    }
+    #drink{
+        height:30vh;
+        width:15vw;
+        object-fit: contain;
+        margin-left: 14vw;
+        margin-top: -1vh;
+    }
+    .box1 h2{
+        margin-left: 3.2vw;
+        margin-top: -24.5vh;
+        font-weight: 700;
+    }
+    #dollar{
+        margin-top: 5vh;
+    }
+    #price1{
+        font-size:13vh;
+        margin-top: -8.5vh;
+        margin-left: 4vw;
+        word-spacing: 2%;
+    }
+    #perday{
+        font-size: 3.6vh;
+        margin-left: 5vw;
+        margin-top: -2.4vh;
+    }
+    #benefits{
+        margin-left: 3.6vw;
+        margin-top: 4vh;
+        font-size: 3vh;
+        color:rgb(66, 65, 65);
+    }
+    #ordernow1{
+        height:70px;
+        width:210px;
+        font-size: 3vh;
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri; 
+        font-weight: 700;
+        margin-left: 5vw;
+        margin-top: 4vh;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        border: none;
+        background-color: #71B85F;
+        color: white;
+    }
+    #ordernow1:hover{
+    background-color:rgb(26, 26, 26);
+    color: white;
+    cursor: pointer;
+    }
+    /* ///order2/// */
+    .box2{
+        height:70vh;
+        width:27vw;
+        background-color:white;
+        border-top-left-radius: 5%;
+        border-bottom-left-radius: 17%;
+        border-bottom-right-radius: 17%;
+        border-top-right-radius: 37%;
+    }
+    #meal{
+        height:30vh;
+        width:15vw;
+        object-fit: contain;
+        margin-left: 14.2vw;
+        margin-top: -1.2vh;
+    }
+    #balanced{
+        margin-left: 2.7vw;
+        margin-top: -24.5vh;
+        font-weight: 700;
+    }
+    #dollar2{
+        margin-top: 5vh;
+        margin-left: 3vw;
+    }
+    #price2{
+        font-size:13vh;
+        margin-top: -8.5vh;
+        margin-left: 4vw;
+        word-spacing: 2%;
+    }
+    #perday2{
+        font-size: 3.6vh;
+        margin-left: 5vw;
+        margin-top: -2.4vh;
+    }
+    #benefits2{
+        margin-left: 3.6vw;
+        margin-top: 3.5vh;
+        font-size: 3vh;
+        color:rgb(66, 65, 65);
+    }
+    #mealordernow{
+        height:70px;
+        width:210px;
+        font-size: 3vh;
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri; 
+        font-weight: 700;
+        margin-left: 5vw;
+        margin-top: 4vh;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        border: none;
+        background-color: #71B85F;
+        color: white;
+    }
+    #mealordernow:hover{
+        background-color:rgb(26, 26, 26);
+        color: white;
+        cursor: pointer;
+        }
+     /* box 3 */
+     .box3{
+        height:70vh;
+        width:27vw;
+        background-color:white;
+        border-top-left-radius: 5%;
+        border-bottom-left-radius: 17%;
+        border-bottom-right-radius: 17%;
+        border-top-right-radius: 37%;
+    }
+    #meal2{
+        height:30vh;
+        width:15vw;
+        object-fit: contain;
+        margin-left: 14vw;
+        margin-top: -1vh;
+    }
+    #vegan{
+        margin-left: 3.2vw;
+        margin-top: -24.5vh;
+        font-weight: 700;
+    }
+    #dollar3{
+        margin-top: 5vh;
+        margin-left: 3vw;
+    }
+    #price3{
+        font-size:13vh;
+        margin-top: -8.5vh;
+        margin-left: 4vw;
+        word-spacing: 2%;
+    }
+    #perday3{
+        font-size: 3.6vh;
+        margin-left: 5vw;
+        margin-top: -2.4vh;
+    }
+    #benefits3{
+        margin-left: 3.6vw;
+        margin-top: 4vh;
+        font-size: 3vh;
+        color:rgb(66, 65, 65);
+    }
+    #mealordernow2{
+        height:70px;
+        width:210px;
+        font-size: 3vh;
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri; 
+        font-weight: 700;
+        margin-left: 5vw;
+        margin-top: 4vh;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        border: none;
+        background-color: #71B85F;
+        color: white;
+    }
+    #mealordernow2:hover{
+        background-color:rgb(26, 26, 26);
+        color: white;
+        cursor: pointer;
+        }
+    
+    /* how it works */
+    .howitworks{
+        height: 90vh;
+        background-color:white;
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+        display: flex;
+    justify-content: center;
+    }
+    .maintext h2{
+        font-size: 4.3vh;
+        font-weight: 200px;
+        text-transform: uppercase;
+        color:#5c5f5c;
+        margin-top: 13vh;
+        margin-left: 39vw;
+        word-spacing: 70%;
+    }
+    #steps{
+        font-size: 7.6vh;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: black;
+        margin-top: 3vh;
+        margin-left: 23vw;
+    }
+    .workboxes{
+        display: flex;
+        justify-content: center;
+        gap: 3vw;
+        margin-top: 12vh;
+        margin-left: 2%;
+    }
+    .workbox1{
+        height:32.6vh;
+        width:24vw;
+        background-color: #fbf29f;
+        border-top-left-radius: 24%;
+        border-bottom-right-radius: 24%;
+        border-top-right-radius: 5%;
+        border-bottom-left-radius: 5%;
+        
+    }
+    #num1{
+       font-size: 4vh;
+        height:65px;
+        width:65px;
+        border-radius: 50%;
+        color: rgb(94, 86, 86) ;
+        opacity: 90%;
+        background-color:#FFF;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow:  0px 0px  0px  rgb(94, 86, 86),3.5px 3.5px 5px rgb(94, 86, 86);
+        margin-top: -2vh;
+        margin-left: -0.7vw;
+    }
+    #choose{
+        font-size: 3.5vh;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-top: 0vh;
+        margin-left: 3vw;
+    }
+    .workbox1 #des{
+        font-size: 3vh;
+        font-weight: 200;
+        margin-left: 3vw;
+        margin-top: 2vh;
+    }
+    #arrow{
+       height:3vh;
+       width:8vw;
+       opacity: 100%;
+       background-size: contain;
+       margin-left: -2vw;
+       margin-top: 15vh;
+    }
+    .workbox1:hover{
+        margin-top: -1vh;
+        cursor: pointer;
+    }
+    /* ///// */
+    .workbox2{
+        background-color: #d6eee6;
+        height:32.6vh;
+        width:24vw;
+        border-top-left-radius: 24%;
+        border-bottom-right-radius: 24%;
+        border-top-right-radius: 5%;
+        border-bottom-left-radius: 5%;
+        margin-left: -2.5vw;
+    }
+    #num2{
+        font-size: 4vh;
+         height:65px;
+         width:65px;
+         border-radius: 50%;
+         color: rgb(94, 86, 86) ;
+         opacity: 90%;
+         background-color:#FFF;
+         display:flex;
+         justify-content: center;
+         align-items: center;
+         box-shadow:  0px 0px  0px  rgb(94, 86, 86),3.5px 3.5px 5px rgb(94, 86, 86);
+         margin-top: -2vh;
+         margin-left: -0.7vw;
+     }
+     #customize{
+         font-size: 3.5vh;
+         text-transform: uppercase;
+         font-weight: 600;
+         margin-top: 0vh;
+         margin-left: 3vw;
+     }
+     .workbox2 #des2{
+         font-size: 3vh;
+         font-weight: 200;
+         margin-left: 3vw;
+         margin-top: 2vh;
+     }
+     #arrow2{
+        height:3vh;
+        width:8vw;
+        opacity: 100%;
+        background-size: contain;
+        margin-left: -2vw;
+        margin-top: 15vh;
+     }
+     .workbox2:hover{
+        margin-top: -1vh;
+        cursor: pointer;
+    }
+    
+     /* ///// */
+     .workbox3{
+        background-color: #cdd9db;
+        height:32.6vh;
+        width:24vw;
+        border-top-left-radius: 24%;
+        border-bottom-right-radius: 24%;
+        border-top-right-radius: 5%;
+        border-bottom-left-radius: 5%;
+        margin-left: -2vw;
+    }
+    #num3{
+        font-size: 4vh;
+         height:65px;
+         width:65px;
+         border-radius: 50%;
+         color: rgb(94, 86, 86) ;
+         opacity: 90%;
+         background-color:#FFF;
+         display:flex;
+         justify-content: center;
+         align-items: center;
+         box-shadow:  0px 0px  0px  rgb(94, 86, 86),3.5px 3.5px 5px rgb(94, 86, 86);
+         margin-top: -2vh;
+         margin-left: -0.7vw;
+     }
+     #data3{
+         font-size: 3.5vh;
+         text-transform: uppercase;
+         font-weight: 600;
+         margin-top: 0vh;
+         margin-left: 3vw;
+     }
+     .workbox3 #des3{
+         font-size: 3vh;
+         font-weight: 200;
+         margin-left: 3vw;
+         margin-top: 2vh;
+     }
+     .workbox3:hover{
+        margin-top:-1vh;
+        cursor: pointer;
+    }
+    /* /// qualities section/// */
+    .qualtiessection{
+        height:90vh;
+        width: 100%;
+        background-color: #71B85F;
+        display: flex;
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+        
+    
+    }
+    #diamond{
+        display: flex;
+        
+    }
+    #awesome{
+        height: 10vh;
+        width:5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10vh;
+        color: white;
+        margin-top: 18vh;
+        margin-left: 8vw;
+    }
+    #diamond h2{
+        margin-top: 21vh;
+        color: white;
+        margin-left: 0.7vw;
+        font-size: 4vh;
+        font-weight: 600;
+    }
+    #diamond p{
+        font-size: 3vh;
+        color: white;
+        margin-top: 29vh;
+        margin-left: -12.2vw;
+    }
+    #organic{
+        display: flex;
+    
+    }
+    #organic-icon{
+        height: 10vh;
+        width:5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 9vh;
+        color: white;
+        margin-top: 9vh;
+        margin-left: 8vw;
+    }
+    #organic h2{
+        margin-top: 11.9vh;
+        color: white;
+        margin-left: 0.7vw;
+        font-size: 4vh;
+        font-weight: 600;
+    }
+    #organic p{
+        font-size: 3vh;
+        color: white;
+        margin-top: 19.3vh;
+        margin-left: -12.2vw;
+    }
+    /* /////////// */
+    .tocennter{
+        display: flex;
+    }
+    #tasty{
+        display: flex;
+    }
+    #tasty-icon{
+        height: 10vh;
+        width:5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 9vh;
+        color: white;
+        margin-left: 5vw;
+        margin-top:19vh;
+    }
+    #tasty h2{
+        margin-top: -3vh;
+        color: white;
+        margin-left: 1vw;
+        font-size: 4vh;
+        font-weight: 600;
+        margin-top:20.6vh;
+    }
+    #tasty p{
+        font-size: 3vh;
+        color: white;
+        margin-top: 29vh;
+        margin-left: -10vw;
+    }
+    #deverse{
+        display: flex;
+    }
+    #deverse-icon{
+        height: 10vh;
+        width:5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 9vh;
+        color: white;
+        margin-left: 5vw;
+        margin-top: 9vh;
+        
+    }
+    #deverse h2{
+        color: white;
+        margin-left: 1vw;
+        font-size: 4vh;
+        font-weight: 600;
+        margin-top:11.6vh;
+    }
+    #deverse p{
+        font-size: 3vh;
+        color: white;
+        margin-top: 19vh;
+        margin-left: -13vw;
+    }
+    /* image inserion  */
+    .imagesec1{
+        display: flex;
+        gap: 2vw;
+    }
+     #food2{
+        height:60vh;
+        width:30vw;
+        background-size: auto;
+        margin-top: 33%;
+        border-radius: 50%;
+        margin-left: -2%;
+    }
+    
+    /* testimonels */
+    
+    .testimonels{
+        height:100vh;
+    }
+    .roundbox{
+        display: flex;
+        
+    }
+    #roundbox1{
+        display: flex;
+        height:30px;
+        width:30px;
+        border-radius: 50%;
+        margin-top: -85vh;
+        background-color: #71B85F;
+        margin-left: 15vw;
+        animation-name: anime1;
+        animation-duration: 3s;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+        
+    }
+    @keyframes anime1 {
+       from{
+         margin-left: -10vh; 
+        background-color: #71B85F;
+       }
+       to{
+        background-color: #71B85F;
+       }
+        
+    }
+    #roundbox2{
+        height:60px;
+        width:60px;
+        border-radius: 50%;
+        background-color:#71B85F;
+        margin-top: -46vh;
+        margin-left: 20vw;
+    }
+    .clients{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 10%;
+        margin-left: 2%;
+        height:90vh;
+        width:50%;
+    }
+    #client1{
+        height:44vh;
+        width:44vh;
+        background-size: contain;
+        margin-top: 17vh;
+        padding-left: -4vw;
+       
+    }
+    #client2{
+        height:30vh;
+        width:30vh;
+        margin-top: -5vh;
+        background-size: contain;
+    }
+    #client3{
+        height:30vh;
+        width:30vh;
+        margin-top: 4vh;
+        padding-left: 27vw;
+        background-size: contain;
+    }
+    /*   /*/
+    .clientsay {
+    margin-left: 55%;
+       margin-top: -39%;
+       font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri;
+       animation: blur;
+       animation-duration: 5s;
+       animation-delay: 2s;
+       animation-iteration-count: infinite;
+       animation-direction:normal
+    }
+    @keyframes blur {
+       10%{
+        margin-left: 60vw;
+        opacity: 0%;
+       }
+      
+       100%{
+       
+        opacity: 100%; 
+       }
+        
+    }
+    .clientsay h2{
+        color:#5c5f5c;
+        text-transform: uppercase;
+        font-size: 4vh;
+        font-weight: 550;
+    }
+    .clientsay h1{
+        text-transform: uppercase;
+        font-size: 9vh;
+        font-weight: 650;
+        margin-top: 3%;
+    }
+    .clientsay p{
+        margin-top: 3%;
+        font-size: 3vh;
+        font-weight: 500;
+        word-spacing: 180%;
+        color: #5c5f5c;
+        margin-left: 1%;
+    }
+    #send{
+        height:70px;
+        width:210px;
+        font-size: 3vh;
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri; 
+        font-weight: 700;
+        margin-left: 5vw;
+        margin-top: 13vh;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        border: none;
+        background-color: #71B85F;
+        color: white;
+    }
+    #send:hover{
+        background-color:rgb(26, 26, 26);
+        color: white;
+        cursor: pointer;
+    }
+    
+    /* footer section */
+    .footer{
+        height:55vh;
+        background-color:#f4faf2;
+    }
+    .footerdata{
+        display: flex;
+        justify-content: center;
+        padding-top: 7%;
+        margin-left: 9%;
+        margin-right: 9%;
+        gap: 4vw;
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-seri; 
+    }
+    .tastelogo{
+        height:30vh;
+        width:50vw;
+    }
+    .tastelogo h2:hover{
+        cursor: pointer;
+    }
+    .tastelogo h2{
+        color:black;
+        font-size: 5.3vh;
+    }
+    .tastelogo h3{
+        font-size: 1.9vh;
+        margin-left: 1.9%;
+        color:black;
+    }
+    .tastelogo p{
+        color:#454343;
+        margin-top: 4vh;
+    }
+    .tastelogo a{
+        font-weight: 600;
+        margin-top: -6.2vh;
+        margin-left: 0.3vw;
+        color:black;
+        text-decoration: none;
+    }
+    /*     */
+    
+    .contacts{
+        height:30vh;
+        width:50vw;
+    }
+    .contacts h3{
+        color:black;
+        font-size: 2.6vh;
+    }
+    #phone{
+        display: flex;
+        margin-top: 5vh;
+        gap: 2vw;
+    }
+    #phone #ph{
+        color:#454343;
+        font-size: 3vh;
+        font-weight: 300;
+    }
+    #phone h5{
+        color:black;
+        font-size: 3vh;
+        font-weight: 370;
+    }
+    #mail{
+        display: flex;
+        gap: 2vw;
+        margin-top: 1vh;
+    }
+    #ml{
+        color: #454343;
+        font-size: 3vh;
+        font-weight: 370;
+    }
+    #mail #add{
+        color: black;
+        font-size: 3vh;
+        font-weight: 370;
+    }
+    #loc{
+        color:black;
+        font-size: 3vh;
+        margin-top: 2vh;
+        font-weight: 200;
+        margin-left: 0.5vw;
+    }
+    #awfb{
+        text-decoration: none;
+    }
+    #fb{
+        margin-top: 3vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:35px;
+        width: 35px;
+        font-size: 20px;
+        border: 0.7px solid rgb(110, 109, 109);
+        border-radius: 50%;
+    }
+    .linkss{
+        display: flex;
+    }
+    #insta{
+        text-decoration: none;
+        margin-left: 2vw;
+    }
+    #instalink{
+        margin-top: 3vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:35px;
+        width: 35px;
+        font-size: 20px;
+        border: 0.7px solid rgb(110, 109, 109);
+        border-radius: 50%;
+    }
+    .links{
+        height:30vh;
+        width:50vw;
+    }
+    .links h2{
+        font-size: 2.8vh;
+        color:black;
+    }
+    #ab:hover{
+        cursor: pointer;
+    }
+    #ab{
+        font-size: 3vh;
+        font-weight: 370;
+        margin-top: 1.4vh;
+    }
+    #how{
+        margin-top: 4vh;
+        font-size: 3vh;
+        font-weight: 370;
+    }
+    #how:hover{
+        cursor: pointer;
+    }
+    #why{
+        font-size: 3vh;
+        font-weight: 370;
+        margin-top: 1.4vh;
+    }
+    #why:hover{
+        cursor: pointer;
+    }
+    .packages{
+        height:30vh;
+        width:50vw;
+    }
+    .packages h2{
+        font-size: 2.8vh;
+        color:black;
+    }
+    #de{
+        font-size: 3vh;
+        font-weight: 370;
+        margin-top: 3.5vh;
+    }
+    #de:hover{
+        cursor: pointer;
+    }
+    #ba{
+        margin-top: 2vh;
+        font-size: 3vh;
+        font-weight: 370;
+    }
+    #ba:hover{
+        cursor: pointer;
+    }
+    #ve{
+        font-size: 3vh;
+        font-weight: 370;
+        margin-top: 1.4vh;
+    }
+    #ve:hover{
+        cursor: pointer;
+    }
+
+  }
